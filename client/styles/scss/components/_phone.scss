@@ -1,0 +1,18 @@
+.phone {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+    font-family: "Noto Sans";
+    color: #000;
+
+    &::before {
+        content: "";
+        position: absolute;
+        left: -30px;
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        background-image: url("../../images/phone.png");
+    }
+}

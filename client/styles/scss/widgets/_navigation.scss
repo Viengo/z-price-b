@@ -1,0 +1,41 @@
+.navigation {
+
+    .navbar-header {
+        .registration {
+            float: left;
+            display: none;
+            margin: 0;
+            padding-left: 45px;
+            @include breakpoint(extra-small) {
+                display: block;
+            }
+        }
+
+    }
+    .navbar-collapse {
+        @include breakpoint(extra-small){
+            padding-right: 13px;
+            padding-left: 13px;
+        }
+        .nav {
+            li {
+                a {
+                    @include breakpoint(small) {
+                        padding: 0 10px;
+                    }
+                    @include breakpoint(extra-small) {
+                        text-align: center;
+                    }
+                }
+            }
+
+        }
+        .registration {
+            float: right;
+            margin: 0;
+            @include breakpoint(extra-small) {
+                display: none;
+            }
+        }
+    }
+}

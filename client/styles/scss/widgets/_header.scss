@@ -1,0 +1,58 @@
+header {
+    background-color: #2f7cd5;
+
+        .select-field {
+            display: inline-block;
+        }
+
+        .country {
+            float: left;
+
+            img {
+                @include breakpoint(s-extra-small) {
+                    width: 100px;
+                }
+            }
+
+            .select-field {
+                margin-left: 33px;
+                @include breakpoint(smaller) {
+                    margin-left: 5px;
+                    padding: 19px 0 0;
+                }
+
+                select {
+                    width: 144px;
+                    @include breakpoint(smaller) {
+                        width: 100px;
+                    }
+                }
+            }
+        }
+
+        .phone-language {
+            float: right;
+            padding: 19px 0 0;
+
+            .phone {
+                color: #fff;
+                @include breakpoint(smaller) {
+                    display: none;
+                }
+            }
+
+            .select-field {
+                margin-left: 16px;
+                @include breakpoint(smaller) {
+                    margin-left: 5px;
+                }
+
+                select {
+                    width: 71px;
+                    @include breakpoint(smaller) {
+                        width: 65px;
+                    }
+                }
+            }
+        }
+}
