@@ -9235,7 +9235,7 @@ button.close {
 
 /* line 1, ../../../bower_components/select2/src/scss/theme/classic/_single.scss */
 .select2-container--classic .select2-selection--single {
-  background-color: #f7f7f7;
+  background-color: #f6f6f6;
   border: 1px solid #fff;
   border-radius: 0;
   outline: 0;
@@ -9505,7 +9505,7 @@ button.close {
 .home .slider .slider-style .carousel-inner .carousel-caption {
   top: 30px;
   left: 42%;
-  width: 615px;
+  width: 630px;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   /* line 23, ../scss/layouts/home/_slider.scss */
@@ -9524,6 +9524,7 @@ button.close {
 /* line 36, ../scss/layouts/home/_slider.scss */
 .home .slider .slider-style .carousel-inner .carousel-caption h2 {
   font-family: "Noto Sans";
+  font-size: 28px;
   font-weight: 700;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -9538,40 +9539,40 @@ button.close {
     font-size: 18px;
   }
 }
-/* line 46, ../scss/layouts/home/_slider.scss */
+/* line 47, ../scss/layouts/home/_slider.scss */
 .home .slider .slider-style .carousel-inner .carousel-caption p {
   margin-top: 15px;
   font-family: "Noto Sans";
   font-size: 18px;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* line 46, ../scss/layouts/home/_slider.scss */
+  /* line 47, ../scss/layouts/home/_slider.scss */
   .home .slider .slider-style .carousel-inner .carousel-caption p {
     font-size: 14px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 46, ../scss/layouts/home/_slider.scss */
+  /* line 47, ../scss/layouts/home/_slider.scss */
   .home .slider .slider-style .carousel-inner .carousel-caption p {
     font-size: 14px;
   }
 }
-/* line 57, ../scss/layouts/home/_slider.scss */
+/* line 58, ../scss/layouts/home/_slider.scss */
 .home .slider .slider-style .carousel-inner .carousel-caption .button {
   margin-top: 25px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 57, ../scss/layouts/home/_slider.scss */
+  /* line 58, ../scss/layouts/home/_slider.scss */
   .home .slider .slider-style .carousel-inner .carousel-caption .button {
     width: 150px;
     font-size: 16px;
   }
 }
-/* line 63, ../scss/layouts/home/_slider.scss */
+/* line 64, ../scss/layouts/home/_slider.scss */
 .home .slider .slider-style .carousel-inner .carousel-caption .button:last-child {
   margin-left: 16px;
 }
-/* line 70, ../scss/layouts/home/_slider.scss */
+/* line 71, ../scss/layouts/home/_slider.scss */
 .home .slider .slider-style .carousel-control::before {
   content: "";
   position: absolute;
@@ -9586,11 +9587,11 @@ button.close {
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
-/* line 84, ../scss/layouts/home/_slider.scss */
+/* line 85, ../scss/layouts/home/_slider.scss */
 .home .slider .slider-style .carousel-control.left::before {
   left: 0;
 }
-/* line 89, ../scss/layouts/home/_slider.scss */
+/* line 90, ../scss/layouts/home/_slider.scss */
 .home .slider .slider-style .carousel-control.right::before {
   right: 0;
   -moz-transform: rotate(180deg);

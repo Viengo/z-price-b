@@ -23,7 +23,7 @@
             .carousel-caption {
                 top: 30px;
                 left: 42%;
-                width: 615px;
+                width: 630px;
                 @include breakpoint(medium){
                     left: 49%;
                     width: 450px;
@@ -35,6 +35,7 @@
 
                 h2 {
                     font-family: "Noto Sans";
+                    font-size: 28px;
                     font-weight: 700;
                     @include breakpoint(medium){
                         font-size: 24px;
