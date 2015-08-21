@@ -9604,6 +9604,13 @@ header .country {
 /* line 17, ../scss/widgets/_header.scss */
 header .country .select-field {
   margin-left: 33px;
+  width: 144px;
+}
+@media (max-width: 600px) {
+  /* line 17, ../scss/widgets/_header.scss */
+  header .country .select-field {
+    width: 100px;
+  }
 }
 @media (max-width: 600px) {
   /* line 17, ../scss/widgets/_header.scss */
@@ -9612,48 +9619,35 @@ header .country .select-field {
     padding: 19px 0 0;
   }
 }
-/* line 24, ../scss/widgets/_header.scss */
-header .country .select-field select {
-  width: 144px;
-}
-@media (max-width: 600px) {
-  /* line 24, ../scss/widgets/_header.scss */
-  header .country .select-field select {
-    width: 100px;
-  }
-}
-/* line 33, ../scss/widgets/_header.scss */
+/* line 30, ../scss/widgets/_header.scss */
 header .phone-language {
   float: right;
   padding: 19px 0 0;
 }
-/* line 37, ../scss/widgets/_header.scss */
+/* line 34, ../scss/widgets/_header.scss */
 header .phone-language .phone {
   color: #fff;
 }
 @media (max-width: 600px) {
-  /* line 37, ../scss/widgets/_header.scss */
+  /* line 34, ../scss/widgets/_header.scss */
   header .phone-language .phone {
     display: none;
   }
 }
-/* line 44, ../scss/widgets/_header.scss */
+/* line 41, ../scss/widgets/_header.scss */
 header .phone-language .select-field {
   margin-left: 16px;
-}
-@media (max-width: 600px) {
-  /* line 44, ../scss/widgets/_header.scss */
-  header .phone-language .select-field {
-    margin-left: 5px;
-  }
-}
-/* line 50, ../scss/widgets/_header.scss */
-header .phone-language .select-field select {
   width: 71px;
 }
 @media (max-width: 600px) {
-  /* line 50, ../scss/widgets/_header.scss */
-  header .phone-language .select-field select {
+  /* line 41, ../scss/widgets/_header.scss */
+  header .phone-language .select-field {
     width: 65px;
+  }
+}
+@media (max-width: 600px) {
+  /* line 41, ../scss/widgets/_header.scss */
+  header .phone-language .select-field {
+    margin-left: 5px;
   }
 }

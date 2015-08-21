@@ -16,16 +16,13 @@ header {
 
             .select-field {
                 margin-left: 33px;
+                width: 144px;
+                @include breakpoint(smaller) {
+                    width: 100px;
+                }
                 @include breakpoint(smaller) {
                     margin-left: 5px;
                     padding: 19px 0 0;
-                }
-
-                select {
-                    width: 144px;
-                    @include breakpoint(smaller) {
-                        width: 100px;
-                    }
                 }
             }
         }
@@ -43,15 +40,12 @@ header {
 
             .select-field {
                 margin-left: 16px;
+                width: 71px;
+                @include breakpoint(smaller) {
+                    width: 65px;
+                }
                 @include breakpoint(smaller) {
                     margin-left: 5px;
-                }
-
-                select {
-                    width: 71px;
-                    @include breakpoint(smaller) {
-                        width: 65px;
-                    }
                 }
             }
         }
