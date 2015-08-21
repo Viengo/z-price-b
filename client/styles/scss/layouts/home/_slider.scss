@@ -1,6 +1,71 @@
 .slider {
-    .slider-style {
+    background-image: url("../../images/slider-back.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
+    .slider-style {
+        height: 360px;
+
+        .carousel-inner {
+            height: 360px;
+
+            img {
+                @include breakpoint(medium){
+                    width: 48%;
+                }
+                @include breakpoint(small){
+                    width: 46%;
+                    padding-top: 55px;
+                }
+            }
+
+            .carousel-caption {
+                top: 30px;
+                left: 42%;
+                width: 615px;
+                @include breakpoint(medium){
+                    left: 49%;
+                    width: 450px;
+                }
+                @include breakpoint(small){
+                    left: 47%;
+                    width: 350px;
+                }
+
+                h2 {
+                    font-family: "Noto Sans";
+                    font-weight: 700;
+                    @include breakpoint(medium){
+                        font-size: 24px;
+                    }
+                    @include breakpoint(small){
+                        font-size: 18px;
+                    }
+                }
+                p {
+                    margin-top: 15px;
+                    font-family: "Noto Sans";
+                    font-size: 18px;
+                    @include breakpoint(medium){
+                        font-size: 14px;
+                    }
+                    @include breakpoint(small){
+                        font-size: 14px;
+                    }
+                }
+                .button {
+                    margin-top: 25px;
+                    @include breakpoint(small){
+                        width: 150px;
+                        font-size: 16px;
+                    }
+                    &:last-child {
+                        margin-left: 16px;
+                    }
+                }
+            }
+        }
         .carousel-control {
             &::before {
                 content: "";
@@ -17,12 +82,12 @@
 
             &.left {
                 &::before {
-                    left: 40%;
+                    left: 0;
                 }
             }
             &.right {
                 &::before {
-                    right: 40%;
+                    right: 0;
                     @include transform(rotate(180deg));
                 }
             }

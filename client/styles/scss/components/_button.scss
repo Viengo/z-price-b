@@ -1,0 +1,26 @@
+.button {
+    position: relative;
+    display: inline-block;
+    width: 175px;
+    padding-left: 20px;
+    background-color: #fff;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    line-height: 44px;
+    text-decoration: none;
+    color: #4478ca;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 16px;
+        right: 15px;
+        display: block;
+        width: 7px;
+        height: 13px;
+        background-image: url("../../images/arrow-right.png");
+    }
+    &.orange {
+        background-color: #fcc000;
+    }
+}
