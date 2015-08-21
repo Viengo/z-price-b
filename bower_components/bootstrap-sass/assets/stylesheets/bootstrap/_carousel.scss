@@ -106,12 +106,12 @@
 
   // Set gradients for backgrounds
   &.left {
-    @include gradient-horizontal($start-color: rgba(0,0,0,.5), $end-color: rgba(0,0,0,.0001));
+//    @include gradient-horizontal($start-color: rgba(0,0,0,.5), $end-color: rgba(0,0,0,.0001));
   }
   &.right {
     left: auto;
     right: 0;
-    @include gradient-horizontal($start-color: rgba(0,0,0,.0001), $end-color: rgba(0,0,0,.5));
+//    @include gradient-horizontal($start-color: rgba(0,0,0,.0001), $end-color: rgba(0,0,0,.5));
   }
 
   // Hover/focus state
@@ -172,10 +172,11 @@
 
 .carousel-indicators {
   position: absolute;
-  bottom: 10px;
+  bottom: 12px;
   left: 50%;
   z-index: 15;
   width: 60%;
+    margin-bottom: 0;
   margin-left: -30%;
   padding-left: 0;
   list-style: none;
@@ -183,12 +184,12 @@
 
   li {
     display: inline-block;
-    width:  10px;
-    height: 10px;
-    margin: 1px;
+    width:  20px;
+    height: 20px;
+    margin: 0;
     text-indent: -999px;
-    border: 1px solid $carousel-indicator-border-color;
-    border-radius: 10px;
+    border: 2px solid #95b5db;
+    border-radius: 0;
     cursor: pointer;
 
     // IE8-9 hack for event handling
@@ -204,10 +205,23 @@
     background-color: rgba(0,0,0,0); // IE9
   }
   .active {
+    position: relative;
     margin: 0;
-    width:  12px;
-    height: 12px;
-    background-color: $carousel-indicator-active-bg;
+    width:  20px;
+    height: 20px;
+    border: 2px solid #fff;
+    background-color: transparent;
+
+      &::before {
+         content: "";
+          position: absolute;
+          top: 2px;
+          left: 2px;
+          display: block;
+          width: 12px;
+          height: 12px;
+          background-color: #fff;
+      }
   }
 }
 
@@ -223,7 +237,7 @@
   padding-top: 20px;
   padding-bottom: 20px;
   color: $carousel-caption-color;
-  text-align: center;
+  text-align: left;
   text-shadow: $carousel-text-shadow;
   & .btn {
     text-shadow: none; // No shadow for button elements in carousel-caption

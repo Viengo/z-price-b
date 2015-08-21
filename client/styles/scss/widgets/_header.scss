@@ -3,6 +3,9 @@ header {
 
         .select-field {
             display: inline-block;
+            select {
+                display:none;
+            }
         }
 
         .country {

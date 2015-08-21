@@ -8318,23 +8318,10 @@ button.close {
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
-/* line 108, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
-.carousel-control.left {
-  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
-  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
-}
 /* line 111, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
 .carousel-control.right {
   left: auto;
   right: 0;
-  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
-  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
 }
 /* line 118, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
 .carousel-control:hover, .carousel-control:focus {
@@ -8387,37 +8374,51 @@ button.close {
 /* line 173, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
 .carousel-indicators {
   position: absolute;
-  bottom: 10px;
+  bottom: 12px;
   left: 50%;
   z-index: 15;
   width: 60%;
+  margin-bottom: 0;
   margin-left: -30%;
   padding-left: 0;
   list-style: none;
   text-align: center;
 }
-/* line 184, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
+/* line 185, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
 .carousel-indicators li {
   display: inline-block;
-  width: 10px;
-  height: 10px;
-  margin: 1px;
+  width: 20px;
+  height: 20px;
+  margin: 0;
   text-indent: -999px;
-  border: 1px solid #fff;
-  border-radius: 10px;
+  border: 2px solid #95b5db;
+  border-radius: 0;
   cursor: pointer;
   background-color: #000 \9;
   background-color: transparent;
 }
-/* line 206, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
+/* line 207, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
 .carousel-indicators .active {
+  position: relative;
   margin: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #fff;
+  background-color: transparent;
+}
+/* line 215, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
+.carousel-indicators .active::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  display: block;
   width: 12px;
   height: 12px;
   background-color: #fff;
 }
 
-/* line 217, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
+/* line 231, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
 .carousel-caption {
   position: absolute;
   left: 15%;
@@ -8427,16 +8428,16 @@ button.close {
   padding-top: 20px;
   padding-bottom: 20px;
   color: #fff;
-  text-align: center;
+  text-align: left;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
-/* line 228, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
+/* line 242, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
 .carousel-caption .btn {
   text-shadow: none;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 239, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
+  /* line 253, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .glyphicon-chevron-right,
   .carousel-control .icon-prev,
@@ -8446,25 +8447,25 @@ button.close {
     margin-top: -15px;
     font-size: 30px;
   }
-  /* line 248, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
+  /* line 262, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .icon-prev {
     margin-left: -15px;
   }
-  /* line 252, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
+  /* line 266, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
   .carousel-control .glyphicon-chevron-right,
   .carousel-control .icon-next {
     margin-right: -15px;
   }
 
-  /* line 259, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
+  /* line 273, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
   .carousel-caption {
     left: 20%;
     right: 20%;
     padding-bottom: 30px;
   }
 
-  /* line 266, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
+  /* line 280, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
   .carousel-indicators {
     bottom: 20px;
   }
@@ -9237,7 +9238,7 @@ button.close {
 
 /* line 1, ../../../bower_components/select2/src/scss/theme/classic/_single.scss */
 .select2-container--classic .select2-selection--single {
-  background-color: #f6f6f6;
+  background-color: #f7f7f7;
   border: 1px solid #fff;
   border-radius: 0;
   outline: 0;
@@ -9475,6 +9476,34 @@ button.close {
   border-color: #fff;
 }
 
+/* line 5, ../scss/layouts/home/_slider.scss */
+.home .slider .slider-style .carousel-control::before {
+  content: "";
+  position: absolute;
+  top: 40%;
+  display: block;
+  width: 35px;
+  height: 35px;
+  border: 3px solid #95b5db;
+  background-image: url("../../images/slider-arrow.png");
+  background-position: 100% 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 19, ../scss/layouts/home/_slider.scss */
+.home .slider .slider-style .carousel-control.left::before {
+  left: 40%;
+}
+/* line 24, ../scss/layouts/home/_slider.scss */
+.home .slider .slider-style .carousel-control.right::before {
+  right: 40%;
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
 /* line 1, ../scss/components/_phone.scss */
 .phone {
   position: relative;
@@ -9591,62 +9620,66 @@ header {
 header .select-field {
   display: inline-block;
 }
-/* line 8, ../scss/widgets/_header.scss */
+/* line 6, ../scss/widgets/_header.scss */
+header .select-field select {
+  display: none;
+}
+/* line 11, ../scss/widgets/_header.scss */
 header .country {
   float: left;
 }
 @media (max-width: 400px) {
-  /* line 11, ../scss/widgets/_header.scss */
+  /* line 14, ../scss/widgets/_header.scss */
   header .country img {
     width: 100px;
   }
 }
-/* line 17, ../scss/widgets/_header.scss */
+/* line 20, ../scss/widgets/_header.scss */
 header .country .select-field {
   margin-left: 33px;
   width: 144px;
 }
 @media (max-width: 600px) {
-  /* line 17, ../scss/widgets/_header.scss */
+  /* line 20, ../scss/widgets/_header.scss */
   header .country .select-field {
     width: 100px;
   }
 }
 @media (max-width: 600px) {
-  /* line 17, ../scss/widgets/_header.scss */
+  /* line 20, ../scss/widgets/_header.scss */
   header .country .select-field {
     margin-left: 5px;
     padding: 19px 0 0;
   }
 }
-/* line 30, ../scss/widgets/_header.scss */
+/* line 33, ../scss/widgets/_header.scss */
 header .phone-language {
   float: right;
   padding: 19px 0 0;
 }
-/* line 34, ../scss/widgets/_header.scss */
+/* line 37, ../scss/widgets/_header.scss */
 header .phone-language .phone {
   color: #fff;
 }
 @media (max-width: 600px) {
-  /* line 34, ../scss/widgets/_header.scss */
+  /* line 37, ../scss/widgets/_header.scss */
   header .phone-language .phone {
     display: none;
   }
 }
-/* line 41, ../scss/widgets/_header.scss */
+/* line 44, ../scss/widgets/_header.scss */
 header .phone-language .select-field {
   margin-left: 16px;
   width: 71px;
 }
 @media (max-width: 600px) {
-  /* line 41, ../scss/widgets/_header.scss */
+  /* line 44, ../scss/widgets/_header.scss */
   header .phone-language .select-field {
     width: 65px;
   }
 }
 @media (max-width: 600px) {
-  /* line 41, ../scss/widgets/_header.scss */
+  /* line 44, ../scss/widgets/_header.scss */
   header .phone-language .select-field {
     margin-left: 5px;
   }
