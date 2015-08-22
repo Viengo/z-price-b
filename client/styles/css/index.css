@@ -9587,7 +9587,7 @@ button.close {
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 30, ../scss/widgets/_navigation.scss */
   .navigation .navbar-collapse .nav li a {
-    padding: 0 10px;
+    padding: 0 7px;
   }
 }
 @media (max-width: 767px) {
