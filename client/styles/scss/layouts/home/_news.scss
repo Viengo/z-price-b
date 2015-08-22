@@ -1,0 +1,90 @@
+.news {
+    padding: 35px 0;
+    background-color: #f2f2f2;
+
+    .article{
+        @include breakpoint(extra-small){
+            margin-top: 35px;
+
+            &:first-child {
+                margin-top: 0;
+            }
+        }
+        .date {
+            float: left;
+            display: block;
+            width: 62px;
+            padding: 7px;
+            background-color: #2f7cd5;
+            font-family: "Noto Sans";
+            font-weight: 700;
+            text-align: center;
+            color: #fff;
+            @include breakpoint(extra-small){
+                float: none;
+                margin: 0 auto;
+            }
+            span {
+                font-size: 18px;
+
+                &:first-child {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .caption {
+            float: right;
+            width: 270px;
+            @include breakpoint(medium){
+                width: 210px;
+            }
+            @include breakpoint(extra-small){
+                float: none;
+                width: 100%;
+                max-width: 450px;
+                margin: 20px auto 0;
+            }
+
+            h3 {
+                margin: 0;
+                font-size: 18px;
+            }
+            p {
+                margin-top: 10px;
+                font-size: 14px;
+                color: #666666;
+            }
+
+            a {
+                position: relative;
+                float: right;
+                margin-top: 20px;
+                padding-right: 28px;
+                font-size: 16px;
+                color: #000;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    right: 0;
+                    display: block;
+                    width: 23px;
+                    height: 23px;
+                    border: 2px solid #000;
+                    background-image: url("../../images/link-arrow.png");
+                    @include border-radius(50%);
+                }
+
+                &:hover {
+                    color: #2f7cd5;
+                    text-decoration: none;
+                    &::before {
+                        border-color: #2f7cd5;
+                        background-image: url("../../images/link-arrow-h.png");
+                    }
+                }
+            }
+        }
+    }
+}
