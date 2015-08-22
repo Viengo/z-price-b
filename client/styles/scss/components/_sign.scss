@@ -1,0 +1,19 @@
+.sign {
+    position: relative;
+    padding-left: 42px;
+    font-weight: 700;
+    @include breakpoint(extra-small) {
+        font-size: 24px;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 3px;
+        display: block;
+        width: 36px;
+        height: 36px;
+        background-color: #26ad5f;
+    }
+}

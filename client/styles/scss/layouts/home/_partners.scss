@@ -1,0 +1,57 @@
+.partners {
+    .sign{
+        &::before{
+            background-image: url("../../images/partners-ok.png");
+        }
+    }
+
+    ul {
+        margin-top: 15px;
+        padding-left: 50px;
+        font-size: 0;
+        @include breakpoint(extra-small) {
+            padding-left: 0;
+            text-align: center;
+        }
+
+        li {
+            display: inline-block;
+            width: 170px;
+            margin-left: 10px;
+            @include breakpoint(medium) {
+                width: 115px;
+                margin-left: 35px;
+            }
+            @include breakpoint(small) {
+                width: 95px;
+            }
+            @include breakpoint(extra-small) {
+                display: none;
+            }
+            &.visible-thumb {
+                @include breakpoint(extra-small) {
+                    display: inline-block;
+                    width: 30%;
+                }
+            }
+
+            &:first-child {
+                margin-left: 0;
+            }
+
+            a {
+                display: block;
+                text-align: center;
+
+                img {
+                    display: inline-block;
+                    width: 100%;
+                    @include breakpoint(large) {
+                        width: auto;
+                    }
+
+                }
+            }
+        }
+    }
+}

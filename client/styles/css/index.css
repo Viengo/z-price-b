@@ -1783,7 +1783,7 @@ html {
 
 /* line 27, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss */
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Noto Sans";
   font-size: 14px;
   line-height: 1.42857;
   color: #333333;
@@ -7921,7 +7921,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Noto Sans";
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -8059,7 +8059,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Noto Sans";
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -9599,6 +9599,150 @@ button.close {
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
+/* line 1, ../scss/layouts/home/_advantages.scss */
+.home .advantages {
+  padding: 30px 0 15px;
+}
+/* line 4, ../scss/layouts/home/_advantages.scss */
+.home .advantages .sign {
+  margin-top: 0;
+}
+/* line 7, ../scss/layouts/home/_advantages.scss */
+.home .advantages .sign::before {
+  background-image: url("../../images/sign-1.png");
+}
+/* line 11, ../scss/layouts/home/_advantages.scss */
+.home .advantages .avail {
+  padding: 25px 15px 0 91px;
+}
+@media (max-width: 767px) {
+  /* line 11, ../scss/layouts/home/_advantages.scss */
+  .home .advantages .avail {
+    padding-left: 50px;
+  }
+}
+/* line 17, ../scss/layouts/home/_advantages.scss */
+.home .advantages .avail.second-row {
+  padding-top: 45px;
+}
+/* line 21, ../scss/layouts/home/_advantages.scss */
+.home .advantages .avail h3 {
+  position: relative;
+  font-size: 18px;
+  color: #2f7cd5;
+}
+/* line 26, ../scss/layouts/home/_advantages.scss */
+.home .advantages .avail h3::before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: -32px;
+  display: block;
+  width: 26px;
+  height: 26px;
+  border: 2px solid #2f7cd5;
+  background-image: url("../../images/ok.png");
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 39, ../scss/layouts/home/_advantages.scss */
+.home .advantages .avail p {
+  margin-top: 5px;
+}
+/* line 3, ../scss/layouts/home/_partners.scss */
+.home .partners .sign::before {
+  background-image: url("../../images/partners-ok.png");
+}
+/* line 8, ../scss/layouts/home/_partners.scss */
+.home .partners ul {
+  margin-top: 15px;
+  padding-left: 50px;
+  font-size: 0;
+}
+@media (max-width: 767px) {
+  /* line 8, ../scss/layouts/home/_partners.scss */
+  .home .partners ul {
+    padding-left: 0;
+    text-align: center;
+  }
+}
+/* line 17, ../scss/layouts/home/_partners.scss */
+.home .partners ul li {
+  display: inline-block;
+  width: 170px;
+  margin-left: 10px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 17, ../scss/layouts/home/_partners.scss */
+  .home .partners ul li {
+    width: 115px;
+    margin-left: 35px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 17, ../scss/layouts/home/_partners.scss */
+  .home .partners ul li {
+    width: 95px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 17, ../scss/layouts/home/_partners.scss */
+  .home .partners ul li {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  /* line 31, ../scss/layouts/home/_partners.scss */
+  .home .partners ul li.visible-thumb {
+    display: inline-block;
+    width: 30%;
+  }
+}
+/* line 38, ../scss/layouts/home/_partners.scss */
+.home .partners ul li:first-child {
+  margin-left: 0;
+}
+/* line 42, ../scss/layouts/home/_partners.scss */
+.home .partners ul li a {
+  display: block;
+  text-align: center;
+}
+/* line 46, ../scss/layouts/home/_partners.scss */
+.home .partners ul li a img {
+  display: inline-block;
+  width: 100%;
+}
+@media (min-width: 1200px) {
+  /* line 46, ../scss/layouts/home/_partners.scss */
+  .home .partners ul li a img {
+    width: auto;
+  }
+}
+
+/* line 1, ../scss/components/_sign.scss */
+.sign {
+  position: relative;
+  padding-left: 42px;
+  font-weight: 700;
+}
+@media (max-width: 767px) {
+  /* line 1, ../scss/components/_sign.scss */
+  .sign {
+    font-size: 24px;
+  }
+}
+/* line 9, ../scss/components/_sign.scss */
+.sign::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 3px;
+  display: block;
+  width: 36px;
+  height: 36px;
+  background-color: #26ad5f;
+}
 
 /* line 1, ../scss/components/_button.scss */
 .button {
@@ -9756,7 +9900,7 @@ header .country {
 @media (max-width: 400px) {
   /* line 14, ../scss/widgets/_header.scss */
   header .country img {
-    width: 100px;
+    width: 85px;
   }
 }
 /* line 20, ../scss/widgets/_header.scss */
