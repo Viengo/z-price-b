@@ -9833,6 +9833,72 @@ button.close {
   border-color: #2f7cd5;
   background-image: url("../../images/link-arrow-h.png");
 }
+/* line 1, ../scss/layouts/home/_tariff.scss */
+.home .tariff {
+  padding: 42px 0 32px;
+}
+/* line 4, ../scss/layouts/home/_tariff.scss */
+.home .tariff .rate {
+  text-align: center;
+}
+@media (max-width: 767px) {
+  /* line 4, ../scss/layouts/home/_tariff.scss */
+  .home .tariff .rate {
+    margin-top: 35px;
+    padding: 0 93px;
+  }
+  /* line 10, ../scss/layouts/home/_tariff.scss */
+  .home .tariff .rate:first-child {
+    margin-top: 0;
+  }
+}
+@media (max-width: 600px) {
+  /* line 4, ../scss/layouts/home/_tariff.scss */
+  .home .tariff .rate {
+    padding: 0 15px;
+  }
+}
+/* line 18, ../scss/layouts/home/_tariff.scss */
+.home .tariff .rate h3 {
+  margin: 0;
+  padding: 15px 0;
+  background-color: #26ad5f;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #fff;
+}
+/* line 28, ../scss/layouts/home/_tariff.scss */
+.home .tariff .rate h3 small {
+  font-size: 14px;
+  text-transform: none;
+  color: #fff;
+}
+/* line 36, ../scss/layouts/home/_tariff.scss */
+.home .tariff .rate:nth-child(2) h3 {
+  background-color: #2f7cd5;
+}
+/* line 42, ../scss/layouts/home/_tariff.scss */
+.home .tariff .rate:nth-child(3) h3 {
+  background-color: #fcc000;
+}
+/* line 47, ../scss/layouts/home/_tariff.scss */
+.home .tariff .rate .rate-description {
+  padding: 17px 42px 25px;
+  border: 1px solid #cfcfcf;
+  border-top: none;
+}
+/* line 52, ../scss/layouts/home/_tariff.scss */
+.home .tariff .rate .rate-description p {
+  padding: 9px 0 9px;
+  border-bottom: 1px solid #666666;
+  color: #666666;
+}
+/* line 57, ../scss/layouts/home/_tariff.scss */
+.home .tariff .rate .rate-description p:last-child {
+  border-bottom: none;
+}
 
 /* line 1, ../scss/components/_sign.scss */
 .sign {
@@ -9851,7 +9917,7 @@ button.close {
   content: "";
   position: absolute;
   top: 0;
-  left: 3px;
+  left: 0;
   display: block;
   width: 36px;
   height: 36px;

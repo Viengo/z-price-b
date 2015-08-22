@@ -1,0 +1,63 @@
+.tariff {
+    padding: 42px 0 32px;
+
+    .rate {
+        text-align: center;
+        @include breakpoint(extra-small){
+            margin-top: 35px;
+            padding: 0 93px;
+
+            &:first-child {
+                margin-top: 0;
+            }
+        }
+        @include breakpoint(smaller){
+            padding: 0 15px;
+        }
+
+        h3 {
+            margin: 0;
+            padding: 15px 0;
+            background-color: #26ad5f;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 21px;
+            text-transform: uppercase;
+            color: #fff;
+
+            small {
+                font-size: 14px;
+                text-transform: none;
+                color: #fff;
+            }
+        }
+
+        &:nth-child(2) {
+            h3 {
+                background-color: #2f7cd5;
+            }
+        }
+
+        &:nth-child(3) {
+            h3 {
+                background-color: #fcc000;
+            }
+        }
+
+        .rate-description {
+            padding: 17px 42px 25px;
+            border: 1px solid #cfcfcf;
+            border-top: none;
+
+            p {
+                padding: 9px 0 9px;
+                border-bottom: 1px solid #666666;
+                color: #666666;
+
+                &:last-child {
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+}
