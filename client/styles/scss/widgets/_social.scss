@@ -1,0 +1,40 @@
+.social {
+    font-size: 0;
+
+    li {
+        display: inline-block;
+        margin-left: 12px;
+
+        &:nth-child(1) {
+            margin-left: 0;
+
+            a {
+                @include social-sprite(facebook);
+            }
+        }
+        &:nth-child(2) {
+            a {
+                @include social-sprite(google);
+            }
+        }
+        &:nth-child(3) {
+            a {
+                @include social-sprite(twitter);
+            }
+        }
+        &:nth-child(4) {
+            a {
+                @include social-sprite(youtube);
+            }
+        }
+        a {
+            display: block;
+            width: 32px;
+            height: 33px;
+
+            &:hover {
+                @include opacity(0.8);
+            }
+        }
+    }
+}

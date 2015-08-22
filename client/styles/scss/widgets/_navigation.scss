@@ -1,4 +1,7 @@
 .navigation {
+    @include breakpoint(extra-small) {
+        background-color: #f2f2f2;
+    }
 
     .navbar-header {
         .registration {
@@ -12,8 +15,13 @@
         }
 
     }
+    .navbar-nav > li > a {
+        @include breakpoint(large) {
+            font-size: 16px;
+        }
+    }
     .navbar-collapse {
-        @include breakpoint(extra-small){
+        @include breakpoint(extra-small) {
             padding-right: 13px;
             padding-left: 13px;
         }

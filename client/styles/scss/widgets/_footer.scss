@@ -1,0 +1,36 @@
+footer {
+    padding-bottom: 30px;
+    background-color: #f2f2f2;
+
+    .navigation {
+        background-color: #f2f2f2;
+        .navbar-header {
+            .registration {
+                @include breakpoint(extra-small) {
+                    float: none;
+                    text-align: center;
+                }
+            }
+
+        }
+    }
+
+    p {
+        float: left;
+        padding-left: 14px;
+    }
+
+    .social {
+        float: right;
+
+    }
+
+    p, .social {
+        margin: 20px 0 0;
+        @include breakpoint(extra-small) {
+            float: none;
+            padding: 0;
+            text-align: center;
+        }
+    }
+}

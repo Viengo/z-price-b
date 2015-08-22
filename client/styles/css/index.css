@@ -9473,6 +9473,368 @@ button.close {
   border-color: #fff;
 }
 
+/* line 72, social/*.png */
+.social-sprite, .social li:nth-child(1) a, .social li:nth-child(2) a, .social li:nth-child(3) a, .social li:nth-child(4) a {
+  background-image: url('../../images/social-sa316f98d8f.png');
+  background-repeat: no-repeat;
+}
+
+/* line 1, ../scss/components/_sign.scss */
+.sign {
+  position: relative;
+  padding-left: 42px;
+  font-weight: 700;
+}
+@media (max-width: 767px) {
+  /* line 1, ../scss/components/_sign.scss */
+  .sign {
+    font-size: 24px;
+  }
+}
+/* line 9, ../scss/components/_sign.scss */
+.sign::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 36px;
+  height: 36px;
+  background-color: #26ad5f;
+}
+
+/* line 1, ../scss/components/_button.scss */
+.button {
+  position: relative;
+  display: inline-block;
+  width: 175px;
+  padding-left: 20px;
+  background-color: #fff;
+  font-family: "Noto Sans";
+  font-size: 18px;
+  line-height: 44px;
+  text-decoration: none;
+  color: #4478ca;
+}
+/* line 13, ../scss/components/_button.scss */
+.button::before {
+  content: "";
+  position: absolute;
+  top: 16px;
+  right: 15px;
+  display: block;
+  width: 7px;
+  height: 13px;
+  background-image: url("../../images/arrow-right.png");
+}
+/* line 24, ../scss/components/_button.scss */
+.button.orange {
+  background-color: #fcc000;
+}
+
+/* line 1, ../scss/components/_phone.scss */
+.phone {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  vertical-align: middle;
+  font-family: "Noto Sans";
+  color: #000;
+}
+/* line 9, ../scss/components/_phone.scss */
+.phone::before {
+  content: "";
+  position: absolute;
+  left: -30px;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-image: url("../../images/phone.png");
+}
+
+@media (max-width: 767px) {
+  /* line 1, ../scss/widgets/_navigation.scss */
+  .navigation {
+    background-color: #f2f2f2;
+  }
+}
+/* line 7, ../scss/widgets/_navigation.scss */
+.navigation .navbar-header .registration {
+  float: left;
+  display: none;
+  margin: 0;
+  padding-left: 45px;
+}
+@media (max-width: 767px) {
+  /* line 7, ../scss/widgets/_navigation.scss */
+  .navigation .navbar-header .registration {
+    display: block;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 18, ../scss/widgets/_navigation.scss */
+  .navigation .navbar-nav > li > a {
+    font-size: 16px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 23, ../scss/widgets/_navigation.scss */
+  .navigation .navbar-collapse {
+    padding-right: 13px;
+    padding-left: 13px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 30, ../scss/widgets/_navigation.scss */
+  .navigation .navbar-collapse .nav li a {
+    padding: 0 10px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 30, ../scss/widgets/_navigation.scss */
+  .navigation .navbar-collapse .nav li a {
+    text-align: center;
+  }
+}
+/* line 41, ../scss/widgets/_navigation.scss */
+.navigation .navbar-collapse .registration {
+  float: right;
+  margin: 0;
+}
+@media (max-width: 767px) {
+  /* line 41, ../scss/widgets/_navigation.scss */
+  .navigation .navbar-collapse .registration {
+    display: none;
+  }
+}
+
+/* line 2, ../scss/widgets/_registration.scss */
+.registration li {
+  position: relative;
+  display: inline-block;
+}
+/* line 6, ../scss/widgets/_registration.scss */
+.registration li::before {
+  content: "";
+  position: absolute;
+  display: block;
+}
+/* line 13, ../scss/widgets/_registration.scss */
+.registration li:first-child::before {
+  top: 10px;
+  left: -25px;
+  width: 20px;
+  height: 22px;
+  background-image: url("../../images/login.png");
+}
+/* line 22, ../scss/widgets/_registration.scss */
+.registration li:last-child::before {
+  top: 12px;
+  left: -2px;
+  width: 2px;
+  height: 17px;
+  background-color: #000;
+}
+/* line 30, ../scss/widgets/_registration.scss */
+.registration li:last-child a {
+  padding-right: 0;
+}
+/* line 35, ../scss/widgets/_registration.scss */
+.registration li a {
+  display: block;
+  padding: 0 9px;
+  line-height: 40px;
+  color: #000;
+}
+@media (min-width: 1200px) {
+  /* line 35, ../scss/widgets/_registration.scss */
+  .registration li a {
+    font-size: 16px;
+  }
+}
+/* line 44, ../scss/widgets/_registration.scss */
+.registration li a:hover {
+  text-decoration: none;
+  color: #2f7cd5;
+}
+
+/* line 1, ../scss/widgets/_header.scss */
+header {
+  background-color: #2f7cd5;
+}
+/* line 4, ../scss/widgets/_header.scss */
+header .select-field {
+  display: inline-block;
+}
+/* line 6, ../scss/widgets/_header.scss */
+header .select-field select {
+  display: none;
+}
+/* line 11, ../scss/widgets/_header.scss */
+header .country {
+  float: left;
+}
+@media (max-width: 400px) {
+  /* line 14, ../scss/widgets/_header.scss */
+  header .country img {
+    width: 85px;
+  }
+}
+/* line 20, ../scss/widgets/_header.scss */
+header .country .select-field {
+  margin-left: 33px;
+  width: 144px;
+}
+@media (max-width: 600px) {
+  /* line 20, ../scss/widgets/_header.scss */
+  header .country .select-field {
+    width: 100px;
+  }
+}
+@media (max-width: 600px) {
+  /* line 20, ../scss/widgets/_header.scss */
+  header .country .select-field {
+    margin-left: 5px;
+    padding: 19px 0 0;
+  }
+}
+/* line 33, ../scss/widgets/_header.scss */
+header .phone-language {
+  float: right;
+  padding: 19px 0 0;
+}
+/* line 37, ../scss/widgets/_header.scss */
+header .phone-language .phone {
+  color: #fff;
+}
+@media (max-width: 600px) {
+  /* line 37, ../scss/widgets/_header.scss */
+  header .phone-language .phone {
+    display: none;
+  }
+}
+/* line 44, ../scss/widgets/_header.scss */
+header .phone-language .select-field {
+  margin-left: 16px;
+  width: 71px;
+}
+@media (max-width: 600px) {
+  /* line 44, ../scss/widgets/_header.scss */
+  header .phone-language .select-field {
+    width: 65px;
+  }
+}
+@media (max-width: 600px) {
+  /* line 44, ../scss/widgets/_header.scss */
+  header .phone-language .select-field {
+    margin-left: 5px;
+  }
+}
+
+/* line 1, ../scss/widgets/_back-to-top.scss */
+.back-to-top {
+  display: none;
+  padding: 25px 0;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  /* line 1, ../scss/widgets/_back-to-top.scss */
+  .back-to-top {
+    display: block;
+  }
+}
+/* line 9, ../scss/widgets/_back-to-top.scss */
+.back-to-top .button {
+  border: 2px solid #4478ca;
+  text-align: left;
+}
+/* line 13, ../scss/widgets/_back-to-top.scss */
+.back-to-top .button::before {
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+/* line 1, ../scss/widgets/_social.scss */
+.social {
+  font-size: 0;
+}
+/* line 4, ../scss/widgets/_social.scss */
+.social li {
+  display: inline-block;
+  margin-left: 12px;
+}
+/* line 8, ../scss/widgets/_social.scss */
+.social li:nth-child(1) {
+  margin-left: 0;
+}
+/* line 11, ../scss/widgets/_social.scss */
+.social li:nth-child(1) a {
+  background-position: 0 0;
+}
+/* line 16, ../scss/widgets/_social.scss */
+.social li:nth-child(2) a {
+  background-position: 0 -33px;
+}
+/* line 21, ../scss/widgets/_social.scss */
+.social li:nth-child(3) a {
+  background-position: 0 -66px;
+}
+/* line 26, ../scss/widgets/_social.scss */
+.social li:nth-child(4) a {
+  background-position: 0 -99px;
+}
+/* line 30, ../scss/widgets/_social.scss */
+.social li a {
+  display: block;
+  width: 32px;
+  height: 33px;
+}
+/* line 35, ../scss/widgets/_social.scss */
+.social li a:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+/* line 1, ../scss/widgets/_footer.scss */
+footer {
+  padding-bottom: 30px;
+  background-color: #f2f2f2;
+}
+/* line 5, ../scss/widgets/_footer.scss */
+footer .navigation {
+  background-color: #f2f2f2;
+}
+@media (max-width: 767px) {
+  /* line 8, ../scss/widgets/_footer.scss */
+  footer .navigation .navbar-header .registration {
+    float: none;
+    text-align: center;
+  }
+}
+/* line 18, ../scss/widgets/_footer.scss */
+footer p {
+  float: left;
+  padding-left: 14px;
+}
+/* line 23, ../scss/widgets/_footer.scss */
+footer .social {
+  float: right;
+}
+/* line 28, ../scss/widgets/_footer.scss */
+footer p, footer .social {
+  margin: 20px 0 0;
+}
+@media (max-width: 767px) {
+  /* line 28, ../scss/widgets/_footer.scss */
+  footer p, footer .social {
+    float: none;
+    padding: 0;
+    text-align: center;
+  }
+}
+
 /* line 1, ../scss/layouts/home/_slider.scss */
 .home .slider {
   background-image: url("../../images/slider-back.png");
@@ -9898,238 +10260,4 @@ button.close {
 /* line 57, ../scss/layouts/home/_tariff.scss */
 .home .tariff .rate .rate-description p:last-child {
   border-bottom: none;
-}
-
-/* line 1, ../scss/components/_sign.scss */
-.sign {
-  position: relative;
-  padding-left: 42px;
-  font-weight: 700;
-}
-@media (max-width: 767px) {
-  /* line 1, ../scss/components/_sign.scss */
-  .sign {
-    font-size: 24px;
-  }
-}
-/* line 9, ../scss/components/_sign.scss */
-.sign::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  width: 36px;
-  height: 36px;
-  background-color: #26ad5f;
-}
-
-/* line 1, ../scss/components/_button.scss */
-.button {
-  position: relative;
-  display: inline-block;
-  width: 175px;
-  padding-left: 20px;
-  background-color: #fff;
-  font-family: "Noto Sans";
-  font-size: 18px;
-  line-height: 44px;
-  text-decoration: none;
-  color: #4478ca;
-}
-/* line 13, ../scss/components/_button.scss */
-.button::before {
-  content: "";
-  position: absolute;
-  top: 16px;
-  right: 15px;
-  display: block;
-  width: 7px;
-  height: 13px;
-  background-image: url("../../images/arrow-right.png");
-}
-/* line 23, ../scss/components/_button.scss */
-.button.orange {
-  background-color: #fcc000;
-}
-
-/* line 1, ../scss/components/_phone.scss */
-.phone {
-  position: relative;
-  display: inline-block;
-  margin: 0;
-  vertical-align: middle;
-  font-family: "Noto Sans";
-  color: #000;
-}
-/* line 9, ../scss/components/_phone.scss */
-.phone::before {
-  content: "";
-  position: absolute;
-  left: -30px;
-  display: inline-block;
-  width: 25px;
-  height: 25px;
-  background-image: url("../../images/phone.png");
-}
-
-/* line 4, ../scss/widgets/_navigation.scss */
-.navigation .navbar-header .registration {
-  float: left;
-  display: none;
-  margin: 0;
-  padding-left: 45px;
-}
-@media (max-width: 767px) {
-  /* line 4, ../scss/widgets/_navigation.scss */
-  .navigation .navbar-header .registration {
-    display: block;
-  }
-}
-@media (max-width: 767px) {
-  /* line 15, ../scss/widgets/_navigation.scss */
-  .navigation .navbar-collapse {
-    padding-right: 13px;
-    padding-left: 13px;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 22, ../scss/widgets/_navigation.scss */
-  .navigation .navbar-collapse .nav li a {
-    padding: 0 10px;
-  }
-}
-@media (max-width: 767px) {
-  /* line 22, ../scss/widgets/_navigation.scss */
-  .navigation .navbar-collapse .nav li a {
-    text-align: center;
-  }
-}
-/* line 33, ../scss/widgets/_navigation.scss */
-.navigation .navbar-collapse .registration {
-  float: right;
-  margin: 0;
-}
-@media (max-width: 767px) {
-  /* line 33, ../scss/widgets/_navigation.scss */
-  .navigation .navbar-collapse .registration {
-    display: none;
-  }
-}
-
-/* line 2, ../scss/widgets/_registration.scss */
-.registration li {
-  position: relative;
-  display: inline-block;
-}
-/* line 6, ../scss/widgets/_registration.scss */
-.registration li::before {
-  content: "";
-  position: absolute;
-  display: block;
-}
-/* line 13, ../scss/widgets/_registration.scss */
-.registration li:first-child::before {
-  top: 10px;
-  left: -25px;
-  width: 20px;
-  height: 22px;
-  background-image: url("../../images/login.png");
-}
-/* line 22, ../scss/widgets/_registration.scss */
-.registration li:last-child::before {
-  top: 12px;
-  left: -2px;
-  width: 2px;
-  height: 17px;
-  background-color: #000;
-}
-/* line 30, ../scss/widgets/_registration.scss */
-.registration li:last-child a {
-  padding-right: 0;
-}
-/* line 35, ../scss/widgets/_registration.scss */
-.registration li a {
-  display: block;
-  padding: 0 9px;
-  line-height: 40px;
-  color: #000;
-}
-/* line 41, ../scss/widgets/_registration.scss */
-.registration li a:hover {
-  text-decoration: none;
-  color: #2f7cd5;
-}
-
-/* line 1, ../scss/widgets/_header.scss */
-header {
-  background-color: #2f7cd5;
-}
-/* line 4, ../scss/widgets/_header.scss */
-header .select-field {
-  display: inline-block;
-}
-/* line 6, ../scss/widgets/_header.scss */
-header .select-field select {
-  display: none;
-}
-/* line 11, ../scss/widgets/_header.scss */
-header .country {
-  float: left;
-}
-@media (max-width: 400px) {
-  /* line 14, ../scss/widgets/_header.scss */
-  header .country img {
-    width: 85px;
-  }
-}
-/* line 20, ../scss/widgets/_header.scss */
-header .country .select-field {
-  margin-left: 33px;
-  width: 144px;
-}
-@media (max-width: 600px) {
-  /* line 20, ../scss/widgets/_header.scss */
-  header .country .select-field {
-    width: 100px;
-  }
-}
-@media (max-width: 600px) {
-  /* line 20, ../scss/widgets/_header.scss */
-  header .country .select-field {
-    margin-left: 5px;
-    padding: 19px 0 0;
-  }
-}
-/* line 33, ../scss/widgets/_header.scss */
-header .phone-language {
-  float: right;
-  padding: 19px 0 0;
-}
-/* line 37, ../scss/widgets/_header.scss */
-header .phone-language .phone {
-  color: #fff;
-}
-@media (max-width: 600px) {
-  /* line 37, ../scss/widgets/_header.scss */
-  header .phone-language .phone {
-    display: none;
-  }
-}
-/* line 44, ../scss/widgets/_header.scss */
-header .phone-language .select-field {
-  margin-left: 16px;
-  width: 71px;
-}
-@media (max-width: 600px) {
-  /* line 44, ../scss/widgets/_header.scss */
-  header .phone-language .select-field {
-    width: 65px;
-  }
-}
-@media (max-width: 600px) {
-  /* line 44, ../scss/widgets/_header.scss */
-  header .phone-language .select-field {
-    margin-left: 5px;
-  }
 }
