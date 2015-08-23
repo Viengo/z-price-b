@@ -5225,15 +5225,16 @@ tbody.collapse.in {
 @media (max-width: 767px) {
   /* line 34, ../scss/widgets/_navigation.scss */
   .navigation .navbar-collapse .nav li a {
+    line-height: 57px;
     text-align: center;
   }
 }
-/* line 45, ../scss/widgets/_navigation.scss */
+/* line 46, ../scss/widgets/_navigation.scss */
 .navigation .navbar-collapse .registration {
   float: right;
 }
 @media (max-width: 767px) {
-  /* line 45, ../scss/widgets/_navigation.scss */
+  /* line 46, ../scss/widgets/_navigation.scss */
   .navigation .navbar-collapse .registration {
     display: none;
   }

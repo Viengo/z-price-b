@@ -3,15 +3,20 @@ $(document).ready(function() {
         minimumResultsForSearch: Infinity,
         width: 'resolve'
     });
+
     $('.slow-scroll a[href*=#]').on('click', function(event){
         event.preventDefault();
         $('html,body').animate({scrollTop:$(this.hash).offset().top}, 300);
     });
 });
 
-$('.carousel').carousel({
-    interval: 10000
-});
+//$('.carousel').carousel({
+//    interval: false,
+//    wrap: false
+//});
+
+
+
 
 $(function() {
     $('.navbar-nav').on('click', function(){
@@ -20,3 +25,5 @@ $(function() {
         }
     });
 });
+
+

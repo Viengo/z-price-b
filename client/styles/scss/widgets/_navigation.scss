@@ -36,6 +36,7 @@
                         padding: 0 7px;
                     }
                     @include breakpoint(extra-small) {
+                        line-height: 57px;
                         text-align: center;
                     }
                 }
