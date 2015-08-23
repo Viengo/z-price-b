@@ -1,4 +1,6 @@
 .registration {
+    font-size: 0;
+
     li {
         position: relative;
         display: inline-block;
@@ -15,19 +17,22 @@
                 left: -25px;
                 width: 20px;
                 height: 22px;
-                background-image: url("../../images/login.png");
+                @include icons-sprite(login);
+                @include breakpoint(small) {
+                    left: -17px;
+                }
             }
         }
         &:last-child {
             &::before {
                 top: 12px;
-                left: -2px;
+                left: -1px;
                 width: 2px;
                 height: 17px;
                 background-color: #000;
             }
 
-            a{
+            a {
                 padding-right: 0;
             }
         }
@@ -35,9 +40,10 @@
         a {
             display: block;
             padding: 0 9px;
+            font-size: 14px;
             line-height: 40px;
             color: #000;
-            @include breakpoint(large){
+            @include breakpoint(large) {
                 font-size: 16px;
             }
 

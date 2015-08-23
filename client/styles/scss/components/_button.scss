@@ -18,7 +18,7 @@
         display: block;
         width: 7px;
         height: 13px;
-        background-image: url("../../images/arrow-right.png");
+        @include icons-sprite(arrow-right);
     }
 
     &.orange {

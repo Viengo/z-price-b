@@ -5,12 +5,12 @@
         margin: 0;
 
         &::before{
-            background-image: url("../../images/partners-ok.png");
+            @include icons-sprite(sign-2);
         }
     }
 
     ul {
-        margin-top: 15px;
+        margin: 15px 0 0;
         padding-left: 50px;
         font-size: 0;
         @include breakpoint(extra-small) {

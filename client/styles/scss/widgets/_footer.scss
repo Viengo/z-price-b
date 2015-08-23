@@ -8,6 +8,7 @@ footer {
             .registration {
                 @include breakpoint(extra-small) {
                     float: none;
+                    padding-left: 30px;
                     text-align: center;
                 }
             }

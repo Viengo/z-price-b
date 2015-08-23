@@ -1,5 +1,5 @@
 .slider {
-    background-image: url("../../images/slider-back.png");
+    background-image: url("../../images/slider/slider-back.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -59,6 +59,7 @@
                     margin-top: 25px;
                     @include breakpoint(small){
                         width: 150px;
+                        padding-left: 10px;
                         font-size: 16px;
                     }
                     &:last-child {
@@ -76,8 +77,7 @@
                 width: 35px;
                 height: 35px;
                 border: 3px solid #95b5db;
-                background-image: url("../../images/slider-arrow.png");
-                background-position: 100% 50%;
+                @include icons-sprite(slider-arrow);
                 @include border-radius(50%);
             }
 

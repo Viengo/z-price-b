@@ -3,8 +3,7 @@ $(document).ready(function() {
         minimumResultsForSearch: Infinity,
         width: 'resolve'
     });
-    $('.carousel').carousel({
-        interval: 10000
-    });
 });
-
+$('.carousel').carousel({
+    interval: 10000
+});

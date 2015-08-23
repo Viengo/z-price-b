@@ -1,55 +1,46 @@
 header {
     background-color: #2f7cd5;
 
-        .select-field {
-            display: inline-block;
-            select {
-                display:none;
-            }
-        }
-
-        .country {
+    .select-field {
+        &:first-of-type {
             float: left;
-
-            img {
-                @include breakpoint(s-extra-small) {
-                    width: 85px;
-                }
-            }
-
-            .select-field {
-                margin-left: 33px;
-                width: 144px;
-                @include breakpoint(smaller) {
-                    width: 100px;
-                }
-                @include breakpoint(smaller) {
-                    margin-left: 5px;
-                    padding: 19px 0 0;
-                }
+            margin: 19px 0 0 33px;
+            width: 144px;
+            @include breakpoint(smaller) {
+                width: 100px;
+                margin-left: 10px;
             }
         }
 
-        .phone-language {
+        &:last-of-type {
             float: right;
-            padding: 19px 0 0;
-
-            .phone {
-                color: #fff;
-                @include breakpoint(smaller) {
-                    display: none;
-                }
-            }
-
-            .select-field {
-                margin-left: 16px;
-                width: 71px;
-                @include breakpoint(smaller) {
-                    width: 65px;
-                }
-                @include breakpoint(smaller) {
-                    margin-left: 5px;
-                }
+            margin: 19px 0 0 16px;;
+            width: 71px;
+            @include breakpoint(smaller) {
+                width: 65px;
+                margin-left: 5px;
             }
         }
+
+        select {
+            display: none;
+        }
+    }
+
+    img {
+        float: left;
+        @include breakpoint(s-extra-small) {
+            padding: 7px 0 12px;
+            width: 85px;
+        }
+    }
+
+    .phone {
+        float: right;
+        margin-top: 26px;
+        color: #fff;
+        @include breakpoint(smaller) {
+            display: none;
+        }
+    }
 }
