@@ -9,6 +9,7 @@
     line-height: 44px;
     text-decoration: none;
     color: #4478ca;
+    @include user-select(none);
 
     &::before {
         content: "";

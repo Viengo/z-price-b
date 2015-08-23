@@ -24,7 +24,9 @@
         h3 {
             position: relative;
             font-size: 18px;
+            line-height: 22px;
             color: #2f7cd5;
+            @include user-select(none);
 
             &::before {
                 content: "";

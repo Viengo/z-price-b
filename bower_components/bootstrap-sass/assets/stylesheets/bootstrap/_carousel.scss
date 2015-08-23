@@ -181,6 +181,11 @@
   padding-left: 0;
   list-style: none;
   text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 
   li {
     display: inline-block;

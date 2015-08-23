@@ -1,4 +1,5 @@
 .navigation {
+    @include user-select(none);
     @include breakpoint(extra-small) {
         background-color: #f2f2f2;
     }
@@ -7,7 +8,6 @@
         .registration {
             float: left;
             display: none;
-            margin: 0;
             padding-left: 45px;
             @include breakpoint(extra-small) {
                 display: block;
@@ -44,7 +44,6 @@
         }
         .registration {
             float: right;
-            margin: 0;
             @include breakpoint(extra-small) {
                 display: none;
             }

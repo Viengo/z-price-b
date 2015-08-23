@@ -29,6 +29,7 @@ header {
 
     img {
         float: left;
+        @include user-select(none);
         @include breakpoint(s-extra-small) {
             padding: 7px 0 12px;
             width: 85px;

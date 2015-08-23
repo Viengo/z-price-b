@@ -14,5 +14,6 @@
         width: 25px;
         height: 25px;
         @include icons-sprite(phone);
+        @include user-select(none);
     }
 }

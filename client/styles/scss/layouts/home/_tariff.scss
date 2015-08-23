@@ -48,6 +48,15 @@
             padding: 17px 42px 25px;
             border: 1px solid #cfcfcf;
             border-top: none;
+            @include breakpoint(medium) {
+                padding: 17px 25px 25px;
+            }
+            @include breakpoint(small) {
+                padding: 17px 15px 25px;
+            }
+            @include breakpoint(s-extra-small) {
+                padding: 17px 15px 25px;
+            }
 
             p {
                 padding: 9px 0 9px;

@@ -1,5 +1,6 @@
 .partners {
     padding: 25px 0;
+    @include user-select(none);
 
     .sign{
         margin: 0;
@@ -10,10 +11,11 @@
     }
 
     ul {
-        margin: 15px 0 0;
+        margin-top: 20px;
         padding-left: 50px;
         font-size: 0;
         @include breakpoint(extra-small) {
+            margin-top: 30px;
             padding-left: 0;
             text-align: center;
         }

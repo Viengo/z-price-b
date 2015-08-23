@@ -12,10 +12,10 @@ module.exports = function (grunt) {
             main: {
                 src: [
                 'bower_components/jquery/dist/jquery.min.js',
-//                'bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js',
                 'bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js',
                 'bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js',
                 'bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js',
+                'bower_components/smooth-scroll/dist/smooth-scroll.js',
                 'bower_components/select2/dist/js/select2.min.js',
                 'client/js/index.js'
                 ],
