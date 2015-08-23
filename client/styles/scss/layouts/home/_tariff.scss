@@ -3,6 +3,15 @@
 
     .rate {
         text-align: center;
+
+        @include breakpoint(small){
+            margin-top: 35px;
+
+            &:first-child {
+                margin-top: 0;
+            }
+        }
+
         @include breakpoint(extra-small){
             margin-top: 35px;
             padding: 0 93px;
@@ -52,7 +61,7 @@
                 padding: 17px 25px 25px;
             }
             @include breakpoint(small) {
-                padding: 17px 15px 25px;
+                padding: 17px 50px 25px;
             }
             @include breakpoint(s-extra-small) {
                 padding: 17px 15px 25px;

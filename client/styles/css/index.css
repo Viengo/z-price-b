@@ -5714,59 +5714,62 @@ footer p, footer .social {
 @media (max-width: 767px) {
   /* line 13, ../scss/layouts/home/_partners.scss */
   .home .partners ul {
-    margin-top: 30px;
     padding-left: 0;
     text-align: center;
   }
 }
-/* line 23, ../scss/layouts/home/_partners.scss */
+/* line 22, ../scss/layouts/home/_partners.scss */
 .home .partners ul li {
   display: inline-block;
   width: 170px;
   margin-left: 10px;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* line 23, ../scss/layouts/home/_partners.scss */
+  /* line 22, ../scss/layouts/home/_partners.scss */
   .home .partners ul li {
     width: 115px;
     margin-left: 35px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 23, ../scss/layouts/home/_partners.scss */
+  /* line 22, ../scss/layouts/home/_partners.scss */
   .home .partners ul li {
     width: 95px;
   }
 }
 @media (max-width: 767px) {
-  /* line 23, ../scss/layouts/home/_partners.scss */
+  /* line 22, ../scss/layouts/home/_partners.scss */
   .home .partners ul li {
-    display: none;
+    width: 25%;
+    margin-top: 10px;
+  }
+  /* line 37, ../scss/layouts/home/_partners.scss */
+  .home .partners ul li:nth-child(3n+1) {
+    margin-left: 0;
   }
 }
-@media (max-width: 767px) {
-  /* line 37, ../scss/layouts/home/_partners.scss */
-  .home .partners ul li.visible-thumb {
-    display: inline-block;
+@media (max-width: 600px) {
+  /* line 22, ../scss/layouts/home/_partners.scss */
+  .home .partners ul li {
     width: 30%;
   }
 }
-/* line 44, ../scss/layouts/home/_partners.scss */
+/* line 45, ../scss/layouts/home/_partners.scss */
 .home .partners ul li:first-child {
   margin-left: 0;
 }
-/* line 48, ../scss/layouts/home/_partners.scss */
+/* line 49, ../scss/layouts/home/_partners.scss */
 .home .partners ul li a {
   display: block;
   text-align: center;
 }
-/* line 52, ../scss/layouts/home/_partners.scss */
+/* line 53, ../scss/layouts/home/_partners.scss */
 .home .partners ul li a img {
   display: inline-block;
   width: 100%;
 }
 @media (min-width: 1200px) {
-  /* line 52, ../scss/layouts/home/_partners.scss */
+  /* line 53, ../scss/layouts/home/_partners.scss */
   .home .partners ul li a img {
     width: auto;
   }
@@ -5895,13 +5898,23 @@ footer p, footer .social {
 .home .tariff .rate {
   text-align: center;
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 4, ../scss/layouts/home/_tariff.scss */
+  .home .tariff .rate {
+    margin-top: 35px;
+  }
+  /* line 10, ../scss/layouts/home/_tariff.scss */
+  .home .tariff .rate:first-child {
+    margin-top: 0;
+  }
+}
 @media (max-width: 767px) {
   /* line 4, ../scss/layouts/home/_tariff.scss */
   .home .tariff .rate {
     margin-top: 35px;
     padding: 0 93px;
   }
-  /* line 10, ../scss/layouts/home/_tariff.scss */
+  /* line 19, ../scss/layouts/home/_tariff.scss */
   .home .tariff .rate:first-child {
     margin-top: 0;
   }
@@ -5912,7 +5925,7 @@ footer p, footer .social {
     padding: 0 15px;
   }
 }
-/* line 18, ../scss/layouts/home/_tariff.scss */
+/* line 27, ../scss/layouts/home/_tariff.scss */
 .home .tariff .rate h3 {
   margin: 0;
   padding: 15px 0;
@@ -5923,51 +5936,51 @@ footer p, footer .social {
   text-transform: uppercase;
   color: #fff;
 }
-/* line 28, ../scss/layouts/home/_tariff.scss */
+/* line 37, ../scss/layouts/home/_tariff.scss */
 .home .tariff .rate h3 small {
   font-size: 14px;
   text-transform: none;
   color: #fff;
 }
-/* line 36, ../scss/layouts/home/_tariff.scss */
+/* line 45, ../scss/layouts/home/_tariff.scss */
 .home .tariff .rate:nth-child(2) h3 {
   background-color: #2f7cd5;
 }
-/* line 42, ../scss/layouts/home/_tariff.scss */
+/* line 51, ../scss/layouts/home/_tariff.scss */
 .home .tariff .rate:nth-child(3) h3 {
   background-color: #fcc000;
 }
-/* line 47, ../scss/layouts/home/_tariff.scss */
+/* line 56, ../scss/layouts/home/_tariff.scss */
 .home .tariff .rate .rate-description {
   padding: 17px 42px 25px;
   border: 1px solid #cfcfcf;
   border-top: none;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* line 47, ../scss/layouts/home/_tariff.scss */
+  /* line 56, ../scss/layouts/home/_tariff.scss */
   .home .tariff .rate .rate-description {
     padding: 17px 25px 25px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 47, ../scss/layouts/home/_tariff.scss */
+  /* line 56, ../scss/layouts/home/_tariff.scss */
   .home .tariff .rate .rate-description {
-    padding: 17px 15px 25px;
+    padding: 17px 50px 25px;
   }
 }
 @media (max-width: 400px) {
-  /* line 47, ../scss/layouts/home/_tariff.scss */
+  /* line 56, ../scss/layouts/home/_tariff.scss */
   .home .tariff .rate .rate-description {
     padding: 17px 15px 25px;
   }
 }
-/* line 61, ../scss/layouts/home/_tariff.scss */
+/* line 70, ../scss/layouts/home/_tariff.scss */
 .home .tariff .rate .rate-description p {
   padding: 9px 0 9px;
   border-bottom: 1px solid #666666;
   color: #666666;
 }
-/* line 66, ../scss/layouts/home/_tariff.scss */
+/* line 75, ../scss/layouts/home/_tariff.scss */
 .home .tariff .rate .rate-description p:last-child {
   border-bottom: none;
 }

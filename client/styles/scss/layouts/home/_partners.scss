@@ -15,7 +15,6 @@
         padding-left: 50px;
         font-size: 0;
         @include breakpoint(extra-small) {
-            margin-top: 30px;
             padding-left: 0;
             text-align: center;
         }
@@ -32,13 +31,15 @@
                 width: 95px;
             }
             @include breakpoint(extra-small) {
-                display: none;
-            }
-            &.visible-thumb {
-                @include breakpoint(extra-small) {
-                    display: inline-block;
-                    width: 30%;
+                width: 25%;
+                margin-top: 10px;
+
+                &:nth-child(3n+1){
+                    margin-left: 0;
                 }
+            }
+            @include breakpoint(smaller) {
+                width: 30%;
             }
 
             &:first-child {
