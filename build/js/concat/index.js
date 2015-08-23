@@ -527,14 +527,6 @@ $(document).ready(function() {
     });
 });
 
-//$('.carousel').carousel({
-//    interval: false,
-//    wrap: false
-//});
-
-
-
-
 $(function() {
     $('.navbar-nav').on('click', function(){
         if($('.navbar-header .navbar-toggle').css('display') !='none'){

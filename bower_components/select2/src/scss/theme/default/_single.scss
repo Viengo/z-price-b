@@ -55,6 +55,9 @@
         background-image: url("../../images/icons/arrow.png");
         background-repeat: no-repeat;
         background-position: 0 100%;
+        @media (max-width: 767px){
+            background-position: 5px 100%;
+        }
     }
   }
 }
@@ -89,6 +92,9 @@
       b {
           background-position: 100% 2px;
           @include transform (rotate(180deg));
+          @media (max-width: 767px) {
+              background-position: 7px 2px;
+          }
       }
     }
   }
