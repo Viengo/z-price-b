@@ -1,7 +1,7 @@
 .advantages {
     padding: 30px 0 15px;
 
-    .sign{
+    .sign {
         margin-top: 0;
 
         &::before {
@@ -23,7 +23,7 @@
 
         h3 {
             position: relative;
-            font-size: 18px;
+            font-weight: 600;
             line-height: 22px;
             color: #2f7cd5;
             @include user-select(none);

@@ -5673,7 +5673,7 @@ footer p, footer .social {
 /* line 24, ../scss/layouts/home/_advantages.scss */
 .home .advantages .avail h3 {
   position: relative;
-  font-size: 18px;
+  font-weight: 600;
   line-height: 22px;
   color: #2f7cd5;
   -webkit-user-select: none;
@@ -5857,7 +5857,7 @@ footer p, footer .social {
 /* line 50, ../scss/layouts/home/_news.scss */
 .home .news .article .caption h3 {
   margin: 0;
-  font-size: 18px;
+  font-weight: 600;
   line-height: 22px;
 }
 /* line 55, ../scss/layouts/home/_news.scss */
