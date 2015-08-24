@@ -428,10 +428,8 @@ img {
 
 /* line 113, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss */
 hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid #d1d1d1;
 }
 
 /* line 125, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss */
@@ -2097,6 +2095,277 @@ pre code {
     margin-left: 100%;
   }
 }
+/* line 6, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
+table {
+  background-color: transparent;
+}
+
+/* line 9, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
+caption {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #777777;
+  text-align: left;
+}
+
+/* line 15, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
+th {
+  text-align: left;
+}
+
+/* line 22, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+/* line 31, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
+.table > thead > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > th,
+.table > tbody > tr > td,
+.table > tfoot > tr > th,
+.table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+/* line 41, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
+.table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #ddd;
+}
+/* line 50, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
+.table > caption + thead > tr:first-child > th,
+.table > caption + thead > tr:first-child > td,
+.table > colgroup + thead > tr:first-child > th,
+.table > colgroup + thead > tr:first-child > td,
+.table > thead:first-child > tr:first-child > th,
+.table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+/* line 57, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
+.table > tbody + tbody {
+  border-top: 2px solid #ddd;
+}
+/* line 62, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
+.table .table {
+  background-color: #fff;
+}
+
+/* line 75, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
+.table-condensed > thead > tr > th,
+.table-condensed > thead > tr > td,
+.table-condensed > tbody > tr > th,
+.table-condensed > tbody > tr > td,
+.table-condensed > tfoot > tr > th,
+.table-condensed > tfoot > tr > td {
+  padding: 5px;
+}
+
+/* line 88, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
+.table-bordered {
+  border: 1px solid #ddd;
+}
+/* line 94, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > th,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > th,
+.table-bordered > tfoot > tr > td {
+  border: 1px solid #ddd;
+}
+/* line 101, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td {
+  border-bottom-width: 2px;
+}
+
+/* line 114, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+
+/* line 125, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
+.table-hover > tbody > tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* line 135, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
+table col[class*="col-"] {
+  position: static;
+  float: none;
+  display: table-column;
+}
+
+/* line 143, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
+table td[class*="col-"],
+table th[class*="col-"] {
+  position: static;
+  float: none;
+  display: table-cell;
+}
+
+/* line 9, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_table-row.scss */
+.table > thead > tr > td.active,
+.table > thead > tr > th.active, .table > thead > tr.active > td, .table > thead > tr.active > th,
+.table > tbody > tr > td.active,
+.table > tbody > tr > th.active,
+.table > tbody > tr.active > td,
+.table > tbody > tr.active > th,
+.table > tfoot > tr > td.active,
+.table > tfoot > tr > th.active,
+.table > tfoot > tr.active > td,
+.table > tfoot > tr.active > th {
+  background-color: #f5f5f5;
+}
+
+/* line 20, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_table-row.scss */
+.table-hover > tbody > tr > td.active:hover,
+.table-hover > tbody > tr > th.active:hover, .table-hover > tbody > tr.active:hover > td, .table-hover > tbody > tr:hover > .active, .table-hover > tbody > tr.active:hover > th {
+  background-color: #e8e8e8;
+}
+
+/* line 9, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_table-row.scss */
+.table > thead > tr > td.success,
+.table > thead > tr > th.success, .table > thead > tr.success > td, .table > thead > tr.success > th,
+.table > tbody > tr > td.success,
+.table > tbody > tr > th.success,
+.table > tbody > tr.success > td,
+.table > tbody > tr.success > th,
+.table > tfoot > tr > td.success,
+.table > tfoot > tr > th.success,
+.table > tfoot > tr.success > td,
+.table > tfoot > tr.success > th {
+  background-color: #dff0d8;
+}
+
+/* line 20, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_table-row.scss */
+.table-hover > tbody > tr > td.success:hover,
+.table-hover > tbody > tr > th.success:hover, .table-hover > tbody > tr.success:hover > td, .table-hover > tbody > tr:hover > .success, .table-hover > tbody > tr.success:hover > th {
+  background-color: #d0e9c6;
+}
+
+/* line 9, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_table-row.scss */
+.table > thead > tr > td.info,
+.table > thead > tr > th.info, .table > thead > tr.info > td, .table > thead > tr.info > th,
+.table > tbody > tr > td.info,
+.table > tbody > tr > th.info,
+.table > tbody > tr.info > td,
+.table > tbody > tr.info > th,
+.table > tfoot > tr > td.info,
+.table > tfoot > tr > th.info,
+.table > tfoot > tr.info > td,
+.table > tfoot > tr.info > th {
+  background-color: #d9edf7;
+}
+
+/* line 20, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_table-row.scss */
+.table-hover > tbody > tr > td.info:hover,
+.table-hover > tbody > tr > th.info:hover, .table-hover > tbody > tr.info:hover > td, .table-hover > tbody > tr:hover > .info, .table-hover > tbody > tr.info:hover > th {
+  background-color: #c4e3f3;
+}
+
+/* line 9, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_table-row.scss */
+.table > thead > tr > td.warning,
+.table > thead > tr > th.warning, .table > thead > tr.warning > td, .table > thead > tr.warning > th,
+.table > tbody > tr > td.warning,
+.table > tbody > tr > th.warning,
+.table > tbody > tr.warning > td,
+.table > tbody > tr.warning > th,
+.table > tfoot > tr > td.warning,
+.table > tfoot > tr > th.warning,
+.table > tfoot > tr.warning > td,
+.table > tfoot > tr.warning > th {
+  background-color: #fcf8e3;
+}
+
+/* line 20, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_table-row.scss */
+.table-hover > tbody > tr > td.warning:hover,
+.table-hover > tbody > tr > th.warning:hover, .table-hover > tbody > tr.warning:hover > td, .table-hover > tbody > tr:hover > .warning, .table-hover > tbody > tr.warning:hover > th {
+  background-color: #faf2cc;
+}
+
+/* line 9, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_table-row.scss */
+.table > thead > tr > td.danger,
+.table > thead > tr > th.danger, .table > thead > tr.danger > td, .table > thead > tr.danger > th,
+.table > tbody > tr > td.danger,
+.table > tbody > tr > th.danger,
+.table > tbody > tr.danger > td,
+.table > tbody > tr.danger > th,
+.table > tfoot > tr > td.danger,
+.table > tfoot > tr > th.danger,
+.table > tfoot > tr.danger > td,
+.table > tfoot > tr.danger > th {
+  background-color: #f2dede;
+}
+
+/* line 20, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_table-row.scss */
+.table-hover > tbody > tr > td.danger:hover,
+.table-hover > tbody > tr > th.danger:hover, .table-hover > tbody > tr.danger:hover > td, .table-hover > tbody > tr:hover > .danger, .table-hover > tbody > tr.danger:hover > th {
+  background-color: #ebcccc;
+}
+
+/* line 171, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
+.table-responsive {
+  overflow-x: auto;
+  min-height: 0.01%;
+}
+@media screen and (max-width: 767px) {
+  /* line 171, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
+  .table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #ddd;
+  }
+  /* line 183, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
+  .table-responsive > .table {
+    margin-bottom: 0;
+  }
+  /* line 191, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
+  .table-responsive > .table > thead > tr > th,
+  .table-responsive > .table > thead > tr > td,
+  .table-responsive > .table > tbody > tr > th,
+  .table-responsive > .table > tbody > tr > td,
+  .table-responsive > .table > tfoot > tr > th,
+  .table-responsive > .table > tfoot > tr > td {
+    white-space: nowrap;
+  }
+  /* line 200, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
+  .table-responsive > .table-bordered {
+    border: 0;
+  }
+  /* line 208, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
+  .table-responsive > .table-bordered > thead > tr > th:first-child,
+  .table-responsive > .table-bordered > thead > tr > td:first-child,
+  .table-responsive > .table-bordered > tbody > tr > th:first-child,
+  .table-responsive > .table-bordered > tbody > tr > td:first-child,
+  .table-responsive > .table-bordered > tfoot > tr > th:first-child,
+  .table-responsive > .table-bordered > tfoot > tr > td:first-child {
+    border-left: 0;
+  }
+  /* line 212, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
+  .table-responsive > .table-bordered > thead > tr > th:last-child,
+  .table-responsive > .table-bordered > thead > tr > td:last-child,
+  .table-responsive > .table-bordered > tbody > tr > th:last-child,
+  .table-responsive > .table-bordered > tbody > tr > td:last-child,
+  .table-responsive > .table-bordered > tfoot > tr > th:last-child,
+  .table-responsive > .table-bordered > tfoot > tr > td:last-child {
+    border-right: 0;
+  }
+  /* line 225, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
+  .table-responsive > .table-bordered > tbody > tr:last-child > th,
+  .table-responsive > .table-bordered > tbody > tr:last-child > td,
+  .table-responsive > .table-bordered > tfoot > tr:last-child > th,
+  .table-responsive > .table-bordered > tfoot > tr:last-child > td {
+    border-bottom: 0;
+  }
+}
+
 /* line 10, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 fieldset {
   padding: 0;
@@ -3798,6 +4067,206 @@ tbody.collapse.in {
   border-radius: 3px;
 }
 
+/* line 6, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_close.scss */
+.close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-shadow: 0 1px 0 #fff;
+}
+/* line 17, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_close.scss */
+.close:hover, .close:focus {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+/* line 32, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_close.scss */
+button.close {
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+}
+
+/* line 11, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+.modal-open {
+  overflow: hidden;
+}
+
+/* line 16, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+.modal {
+  display: none;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+}
+/* line 32, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+.modal.fade .modal-dialog {
+  -webkit-transform: translate(0, -25%);
+  -ms-transform: translate(0, -25%);
+  -o-transform: translate(0, -25%);
+  transform: translate(0, -25%);
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  -moz-transition: -moz-transform 0.3s ease-out;
+  -o-transition: -o-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+}
+/* line 36, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+.modal.in .modal-dialog {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+/* line 38, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+.modal-open .modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* line 44, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+.modal-dialog {
+  position: relative;
+  width: 300px;
+  margin: 10px auto;
+}
+
+/* line 51, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+.modal-content {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  background-clip: padding-box;
+  outline: 0;
+}
+
+/* line 64, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: #000;
+}
+/* line 73, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+.modal-backdrop.fade {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+/* line 74, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+.modal-backdrop.in {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+/* line 79, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+.modal-header {
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+  min-height: 16.42857px;
+  text-align: center;
+}
+
+/* line 86, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+.modal-header .close {
+  margin-top: -2px;
+}
+
+/* line 91, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+.modal-title {
+  margin: 0;
+  line-height: 1.42857;
+}
+
+/* line 98, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+.modal-body {
+  position: relative;
+  padding: 15px 25px 30px;
+}
+
+/* line 104, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+.modal-footer {
+  padding: 15px 25px 30px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+/* line 14, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.modal-footer:before, .modal-footer:after {
+  content: " ";
+  display: table;
+}
+/* line 19, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.modal-footer:after {
+  clear: both;
+}
+/* line 111, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+.modal-footer .btn + .btn {
+  margin-left: 5px;
+  margin-bottom: 0;
+}
+/* line 116, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+.modal-footer .btn-group .btn + .btn {
+  margin-left: -1px;
+}
+/* line 120, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+.modal-footer .btn-block + .btn-block {
+  margin-left: 0;
+}
+
+/* line 126, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+.modal-scrollbar-measure {
+  position: absolute;
+  top: -9999px;
+  width: 50px;
+  height: 50px;
+  overflow: scroll;
+}
+
+@media (min-width: 768px) {
+  /* line 137, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+  .modal-dialog {
+    width: 381px;
+    margin: 30px auto;
+  }
+
+  /* line 141, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+  .modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+
+  /* line 146, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+  .modal-sm {
+    width: 381px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 150, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+  .modal-lg {
+    width: 381px;
+  }
+}
 /* line 7, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
 .carousel {
   position: relative;
@@ -5083,9 +5552,9 @@ tbody.collapse.in {
   border-color: #fff;
 }
 
-/* line 120, icons/*.png */
-.icons-sprite, .button::before, .phone::before, .registration li:first-child::before, .home .slider .slider-style .carousel-control::before, .home .advantages .sign::before, .home .advantages .avail h3::before, .home .partners .sign::before, .home .news .article .caption a::before, .home .news .article .caption a:hover::before {
-  background-image: url('../../images/icons-s217d8c6cba.png');
+/* line 160, icons/*.png */
+.icons-sprite, .button::before, .phone::before, .registration li:first-child::before, .tariffs .sign::before, .tariffs table tbody tr:first-child span, .tariffs table tbody tr:nth-child(2) span, .tariffs table tbody tr:nth-child(3) span, .tariffs table tbody tr:nth-child(4) span, .home .slider .slider-style .carousel-control::before, .home .advantages .sign::before, .home .advantages .avail h3::before, .home .partners .sign::before, .home .news .article .caption a::before, .home .news .article .caption a:hover::before {
+  background-image: url('../../images/icons-s19ac52faf7.png');
   background-repeat: no-repeat;
 }
 
@@ -5126,7 +5595,7 @@ tbody.collapse.in {
   background-color: #26ad5f;
 }
 
-/* line 1, ../scss/components/_button.scss */
+/* line 1, ../scss/components/_buttons.scss */
 .button {
   position: relative;
   display: inline-block;
@@ -5144,7 +5613,7 @@ tbody.collapse.in {
   -ms-user-select: none;
   user-select: none;
 }
-/* line 14, ../scss/components/_button.scss */
+/* line 14, ../scss/components/_buttons.scss */
 .button::before {
   content: "";
   position: absolute;
@@ -5155,9 +5624,28 @@ tbody.collapse.in {
   height: 13px;
   background-position: 0 0;
 }
-/* line 25, ../scss/components/_button.scss */
+/* line 25, ../scss/components/_buttons.scss */
 .button.orange {
   background-color: #fcc000;
+}
+
+/* line 30, ../scss/components/_buttons.scss */
+.booking {
+  display: inline-block;
+  width: 220px;
+  background-color: #e63232;
+  padding: 15px 5px;
+  font-weight: 600;
+  line-height: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+/* line 40, ../scss/components/_buttons.scss */
+.booking:hover, .booking:focus {
+  color: #fff;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 /* line 1, ../scss/components/_phone.scss */
@@ -5490,6 +5978,237 @@ footer p, footer .social {
   }
 }
 
+/* line 1, ../scss/widgets/_tariffs.scss */
+.tariffs {
+  padding: 25px 0 45px;
+}
+/* line 5, ../scss/widgets/_tariffs.scss */
+.tariffs .sign::before {
+  background-position: 0 -330px;
+}
+/* line 9, ../scss/widgets/_tariffs.scss */
+.tariffs table {
+  margin-top: 35px;
+}
+/* line 13, ../scss/widgets/_tariffs.scss */
+.tariffs table thead tr th {
+  max-width: 320px;
+  padding: 30px 0;
+  border: 12px solid #fff;
+  border-top: none;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+/* line 23, ../scss/widgets/_tariffs.scss */
+.tariffs table thead tr th:nth-child(1) {
+  max-width: 205px;
+  border-left: none;
+}
+/* line 27, ../scss/widgets/_tariffs.scss */
+.tariffs table thead tr th:nth-child(2) {
+  background-color: #26ad5f;
+}
+/* line 30, ../scss/widgets/_tariffs.scss */
+.tariffs table thead tr th:nth-child(3) {
+  background-color: #2f7cd5;
+}
+/* line 33, ../scss/widgets/_tariffs.scss */
+.tariffs table thead tr th:nth-child(4) {
+  border-right: none;
+  background-color: #fcc000;
+}
+/* line 42, ../scss/widgets/_tariffs.scss */
+.tariffs table tbody tr td {
+  max-width: 320px;
+  padding: 30px 15px;
+  border: 12px solid #fff;
+  text-align: center;
+}
+/* line 47, ../scss/widgets/_tariffs.scss */
+.tariffs table tbody tr td:first-child {
+  max-width: 205px;
+  padding-top: 15px;
+  border-left: none;
+  background-color: #f2f2f2;
+}
+/* line 52, ../scss/widgets/_tariffs.scss */
+.tariffs table tbody tr td:first-child span {
+  display: block;
+  margin: 0 auto;
+  width: 30px;
+  height: 27px;
+}
+/* line 59, ../scss/widgets/_tariffs.scss */
+.tariffs table tbody tr td:nth-child(2) {
+  background-color: #e9f7ef;
+}
+/* line 62, ../scss/widgets/_tariffs.scss */
+.tariffs table tbody tr td:nth-child(3) {
+  background-color: #eaf2fb;
+}
+/* line 65, ../scss/widgets/_tariffs.scss */
+.tariffs table tbody tr td:nth-child(4) {
+  border-right: none;
+  background-color: #fff9e5;
+}
+/* line 71, ../scss/widgets/_tariffs.scss */
+.tariffs table tbody tr:first-child span {
+  background-position: 0 -150px;
+}
+/* line 76, ../scss/widgets/_tariffs.scss */
+.tariffs table tbody tr:nth-child(2) span {
+  background-position: 0 -177px;
+}
+/* line 81, ../scss/widgets/_tariffs.scss */
+.tariffs table tbody tr:nth-child(3) span {
+  background-position: 0 -204px;
+}
+/* line 86, ../scss/widgets/_tariffs.scss */
+.tariffs table tbody tr:nth-child(4) span {
+  background-position: 0 -231px;
+}
+/* line 91, ../scss/widgets/_tariffs.scss */
+.tariffs table tbody tr:nth-child(5) td {
+  background-color: transparent;
+}
+/* line 93, ../scss/widgets/_tariffs.scss */
+.tariffs table tbody tr:nth-child(5) td:last-child {
+  font-weight: 600;
+  background-color: #fdd040;
+}
+/* line 100, ../scss/widgets/_tariffs.scss */
+.tariffs table tbody tr:nth-child(6) td {
+  background-color: transparent;
+}
+/* line 102, ../scss/widgets/_tariffs.scss */
+.tariffs table tbody tr:nth-child(6) td .booking {
+  text-transform: none;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 102, ../scss/widgets/_tariffs.scss */
+  .tariffs table tbody tr:nth-child(6) td .booking {
+    width: 130px;
+  }
+}
+/* line 113, ../scss/widgets/_tariffs.scss */
+.tariffs .rate {
+  display: none;
+  text-align: center;
+  margin-top: 35px;
+  padding: 0 93px;
+}
+@media (max-width: 767px) {
+  /* line 113, ../scss/widgets/_tariffs.scss */
+  .tariffs .rate {
+    display: block;
+  }
+}
+@media (max-width: 600px) {
+  /* line 113, ../scss/widgets/_tariffs.scss */
+  .tariffs .rate {
+    padding: 0 15px;
+  }
+}
+/* line 125, ../scss/widgets/_tariffs.scss */
+.tariffs .rate h3 {
+  margin: 0;
+  padding: 15px 0;
+  background-color: #26ad5f;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #fff;
+}
+/* line 135, ../scss/widgets/_tariffs.scss */
+.tariffs .rate h3 small {
+  font-size: 14px;
+  text-transform: none;
+  color: #fff;
+}
+/* line 143, ../scss/widgets/_tariffs.scss */
+.tariffs .rate:nth-child(2) h3 {
+  background-color: #2f7cd5;
+}
+/* line 149, ../scss/widgets/_tariffs.scss */
+.tariffs .rate:nth-child(3) h3 {
+  background-color: #fcc000;
+}
+/* line 154, ../scss/widgets/_tariffs.scss */
+.tariffs .rate .rate-description {
+  padding: 17px 15px 25px;
+  border: 1px solid #cfcfcf;
+  border-top: none;
+}
+/* line 159, ../scss/widgets/_tariffs.scss */
+.tariffs .rate .rate-description p {
+  margin-top: 35px;
+  color: #666666;
+}
+/* line 163, ../scss/widgets/_tariffs.scss */
+.tariffs .rate .rate-description hr {
+  width: 120px;
+  margin: 35px auto 0;
+}
+/* line 168, ../scss/widgets/_tariffs.scss */
+.tariffs .rate .rate-description .booking {
+  margin-top: 35px;
+}
+
+/* line 1, ../scss/widgets/_modal-style.scss */
+.modal-style {
+  padding-right: 0 !important;
+}
+/* line 5, ../scss/widgets/_modal-style.scss */
+.modal-style:nth-of-type(2) .modal-header h3 {
+  background-color: #2f7cd5;
+}
+/* line 13, ../scss/widgets/_modal-style.scss */
+.modal-style:nth-of-type(3) .modal-header h3 {
+  background-color: #fcc000;
+}
+/* line 19, ../scss/widgets/_modal-style.scss */
+.modal-style .modal-header {
+  padding: 0;
+}
+/* line 21, ../scss/widgets/_modal-style.scss */
+.modal-style .modal-header h3 {
+  margin: 0;
+  padding: 18px 15px 10px;
+  background-color: #26ad5f;
+  font-weight: 600;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #fff;
+}
+/* line 30, ../scss/widgets/_modal-style.scss */
+.modal-style .modal-header h3 small {
+  font-size: 18px;
+  text-transform: none;
+  color: #fff;
+}
+/* line 37, ../scss/widgets/_modal-style.scss */
+.modal-style .modal-body {
+  text-align: center;
+}
+/* line 40, ../scss/widgets/_modal-style.scss */
+.modal-style .modal-body p {
+  margin-top: 35px;
+  color: #666666;
+}
+/* line 44, ../scss/widgets/_modal-style.scss */
+.modal-style .modal-body hr {
+  width: 120px;
+  margin: 35px auto 0;
+}
+/* line 49, ../scss/widgets/_modal-style.scss */
+.modal-style .modal-body .booking {
+  margin-top: 65px;
+}
+
 /* line 1, ../scss/layouts/home/_slider.scss */
 .home .slider {
   background-image: url("../../images/slider/slider-back.png");
@@ -5616,7 +6335,7 @@ footer p, footer .social {
   width: 35px;
   height: 35px;
   border: 3px solid #95b5db;
-  background-position: 0 -222px;
+  background-position: 0 -366px;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
@@ -5648,7 +6367,7 @@ footer p, footer .social {
 }
 /* line 7, ../scss/layouts/home/_advantages.scss */
 .home .advantages .sign::before {
-  background-position: 0 -150px;
+  background-position: 0 -258px;
 }
 /* line 11, ../scss/layouts/home/_advantages.scss */
 .home .advantages .avail {
@@ -5716,7 +6435,7 @@ footer p, footer .social {
 }
 /* line 8, ../scss/layouts/home/_partners.scss */
 .home .partners .sign::before {
-  background-position: 0 -186px;
+  background-position: 0 -294px;
 }
 /* line 13, ../scss/layouts/home/_partners.scss */
 .home .partners ul {
@@ -5902,98 +6621,4 @@ footer p, footer .social {
 .home .news .article .caption a:hover::before {
   border-color: #2f7cd5;
   background-position: 0 -43px;
-}
-/* line 1, ../scss/layouts/home/_tariff.scss */
-.home .tariff {
-  padding: 42px 0 32px;
-}
-/* line 4, ../scss/layouts/home/_tariff.scss */
-.home .tariff .rate {
-  text-align: center;
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 4, ../scss/layouts/home/_tariff.scss */
-  .home .tariff .rate {
-    margin-top: 35px;
-  }
-  /* line 10, ../scss/layouts/home/_tariff.scss */
-  .home .tariff .rate:first-child {
-    margin-top: 0;
-  }
-}
-@media (max-width: 767px) {
-  /* line 4, ../scss/layouts/home/_tariff.scss */
-  .home .tariff .rate {
-    margin-top: 35px;
-    padding: 0 93px;
-  }
-  /* line 19, ../scss/layouts/home/_tariff.scss */
-  .home .tariff .rate:first-child {
-    margin-top: 0;
-  }
-}
-@media (max-width: 600px) {
-  /* line 4, ../scss/layouts/home/_tariff.scss */
-  .home .tariff .rate {
-    padding: 0 15px;
-  }
-}
-/* line 27, ../scss/layouts/home/_tariff.scss */
-.home .tariff .rate h3 {
-  margin: 0;
-  padding: 15px 0;
-  background-color: #26ad5f;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 21px;
-  text-transform: uppercase;
-  color: #fff;
-}
-/* line 37, ../scss/layouts/home/_tariff.scss */
-.home .tariff .rate h3 small {
-  font-size: 14px;
-  text-transform: none;
-  color: #fff;
-}
-/* line 45, ../scss/layouts/home/_tariff.scss */
-.home .tariff .rate:nth-child(2) h3 {
-  background-color: #2f7cd5;
-}
-/* line 51, ../scss/layouts/home/_tariff.scss */
-.home .tariff .rate:nth-child(3) h3 {
-  background-color: #fcc000;
-}
-/* line 56, ../scss/layouts/home/_tariff.scss */
-.home .tariff .rate .rate-description {
-  padding: 17px 42px 25px;
-  border: 1px solid #cfcfcf;
-  border-top: none;
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-  /* line 56, ../scss/layouts/home/_tariff.scss */
-  .home .tariff .rate .rate-description {
-    padding: 17px 25px 25px;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 56, ../scss/layouts/home/_tariff.scss */
-  .home .tariff .rate .rate-description {
-    padding: 17px 50px 25px;
-  }
-}
-@media (max-width: 400px) {
-  /* line 56, ../scss/layouts/home/_tariff.scss */
-  .home .tariff .rate .rate-description {
-    padding: 17px 15px 25px;
-  }
-}
-/* line 70, ../scss/layouts/home/_tariff.scss */
-.home .tariff .rate .rate-description p {
-  padding: 9px 0 9px;
-  border-bottom: 1px solid #666666;
-  color: #666666;
-}
-/* line 75, ../scss/layouts/home/_tariff.scss */
-.home .tariff .rate .rate-description p:last-child {
-  border-bottom: none;
 }

@@ -14,13 +14,13 @@
         <div class="container">
                 <img src="client/images/logo.png" alt="logo"/>
                 <div class="select-field">
-                    <select aria-hidden="true" style="width: 100%">
+                    <select style="width: 100%">
                         <option value="UA">Украина</option>
                         <option value="RU">Россия</option>
                     </select>
                 </div>
                 <div class="select-field">
-                    <select aria-hidden="true" style="width: 100%">
+                    <select style="width: 100%">
                         <option value="RU">Rus</option>
                         <option value="RU">Ua</option>
                     </select>
@@ -192,35 +192,99 @@
         </div>
     </div>
 </section>
-    <section class="tariff" id="tariff">
-<div class="container">
-    <div class="row">
-        <div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-8 col-sm-offset-2 col-xs-12 rate">
-            <h3>пакет минимальный<br/><small>до 500 магазинов 199usd</small></h3>
-            <div class="rate-description">
-                <p>Далеко-далеко за словесными горами</p>
-                <p>В стране гласных и согласных</p>
-                <p>Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана.</p>
+    <section class="tariffs">
+    <div class="container">
+        <h2 class="sign">Тарифы</h2>
+        <table class="hidden-xs">
+            <thead>
+            <tr>
+                <th></th>
+                <th>пакет "эконом"</th>
+                <th>пакет "базовый"</th>
+                <th>пакет "премиум"</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><span></span>Привязка товаров</td>
+                <td>Автоматическая привязка товаров</td>
+                <td>Ручной контроль автоматической привязки товаров</td>
+                <td>Ручная привязка товаров + усиленный контроль</td>
+            </tr>
+            <tr>
+                <td><span></span>Пересечений по товарам</td>
+                <td>70% пересечений по товарам</td>
+                <td>85% пересечений по товарам</td>
+                <td>99% пересечений по товарам</td>
+            </tr>
+            <tr>
+                <td><span></span>Частота обновлений</td>
+                <td>2-3 раза в сутки</td>
+                <td>2-3 раза в сутки</td>
+                <td>каждые 2 часа + возможность обновления в реальном времени</td>
+            </tr>
+            <tr>
+                <td><span></span>Поддержка</td>
+                <td>через email и тикет систему</td>
+                <td>голосовая поддержка</td>
+                <td>голосовая поддержка + консультирование в вопросах</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Разработка индивидуальных отчетов и функций</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><a class="booking" href="#economy" data-toggle="modal">Оформить за 1000 грн</a></td>
+                <td><a class="booking" href="#base" data-toggle="modal">Оформить за 3000 грн</a></td>
+                <td><a class="booking" href="#premium" data-toggle="modal">Оформить за 5000 грн</a></td>
+            </tr>
+            </tbody>
+        </table>
+        <div class="row">
+            <div class="col-xs-12 rate">
+                <h3>пакет "эконом"<br/><small>от 1000 грн</small></h3>
+                <div class="rate-description">
+                    <p>Автоматическая привязка товаров</p>
+                    <hr/>
+                    <p>70% пересечений по товарам</p>
+                    <hr/>
+                    <p>Обновление информации 2-3 раза в сутки</p>
+                    <hr/>
+                    <p>Поддержка через email и тикет систему</p>
+                    <a class="booking" href="#economy" data-toggle="modal">Оформить за 1000 грн</a>
+                </div>
             </div>
-        </div>
-        <div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-8 col-sm-offset-2 col-xs-12 rate">
-            <h3>пакет базовый<br/><small>до 2000 магазинов 299usd</small></h3>
-            <div class="rate-description">
-                <p>Далеко-далеко за словесными горами</p>
-                <p>В стране гласных и согласных</p>
-                <p>Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана.</p>
+            <div class="col-xs-12 rate">
+                <h3>пакет "базовый"<br/><small>от 3000грн</small></h3>
+                <div class="rate-description">
+                    <p>Ручной контроль автоматической привязки товаров</p>
+                    <hr/>
+                    <p>85% пересечений по товарам</p>
+                    <hr/>
+                    <p>Обновление информации 2-3 раза в сутки</p>
+                    <hr/>
+                    <p>Голосовая поддержка</p>
+                    <a class="booking" href="#base" data-toggle="modal">Оформить за 3000 грн</a>
+                </div>
             </div>
-        </div>
-        <div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-8 col-sm-offset-2 col-xs-12 rate">
-            <h3>пакет полный<br/><small>до 5000 магазинов 499usd</small></h3>
-            <div class="rate-description">
-                <p>Далеко-далеко за словесными горами</p>
-                <p>В стране гласных и согласных</p>
-                <p>Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана.</p>
+            <div class="col-xs-12 rate">
+                <h3>пакет "премиум"<br/><small>от 5000 грн</small></h3>
+                <div class="rate-description">
+                    <p>Ручная привязка товаров + усиленный контроль</p>
+                    <hr/>
+                    <p>99% пересечений по товарам
+                    <hr/>
+                    <p>Обновление информации каждые 2 часа + возможность обновления в реальном времени</p>
+                    <hr/>
+                    <p>голосовая поддержка + консультирование в вопросах</p>
+                    <a class="booking" href="#premium" data-toggle="modal">Оформить за 5000 грн</a>
+                </div>
             </div>
         </div>
     </div>
-</div>
 </section>
     <section class="back-to-top slow-scroll">
         <a class="button" href="#home">Наверх</a>
@@ -261,5 +325,65 @@
     </ul>
     </div>
 </footer>
+<div class="modal fade modal-style" id="economy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3 id="myModalLabel">пакет "эконом" <br/> <small>от 1000 грн</small></h3>
+            </div>
+            <div class="modal-body">
+                <p>Автоматическая привязка товаров</p>
+                <hr/>
+                <p>70% пересечений по товарам</p>
+                <hr/>
+                <p>Обновление информации 2-3 раза в сутки</p>
+                <hr/>
+                <p>Поддержка через email и тикет систему</p>
+                <a class="booking" href="javascript:void(0)">оформить заявку</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade modal-style" id="base" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3 id="myModalLabel">пакет "базовый" <br/> <small>от 1000 грн</small></h3>
+            </div>
+            <div class="modal-body">
+                <p>Ручной контроль автоматической привязки товаров</p>
+                <hr/>
+                <p>85% пересечений по товарам</p>
+                <hr/>
+                <p>Обновление информации 2-3 раза в сутки</p>
+                <hr/>
+                <p>Голосовая поддержка</p>
+                <a class="booking" href="javascript:void(0)">оформить заявку</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade modal-style" id="premium" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3 id="myModalLabel">пакет "премиум" <br/> <small>от 1000 грн</small></h3>
+            </div>
+            <div class="modal-body">
+                <p>Ручная привязка товаров + усиленный контроль</p>
+                <hr/>
+                <p>99% пересечений по товарам</p>
+                <hr/>
+                <p>Обновление информации каждые 2 часа + возможность обновления в реальном времени</p>
+                <hr/>
+                <p>Голосовая поддержка + консультирование в вопросах</p>
+                <a class="booking" href="javascript:void(0)">оформить заявку</a>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>

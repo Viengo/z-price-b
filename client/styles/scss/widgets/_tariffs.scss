@@ -1,0 +1,173 @@
+.tariffs {
+    padding: 25px 0 45px;
+
+    .sign {
+        &::before {
+            @include icons-sprite(sign-3);
+        }
+    }
+    table {
+        margin-top: 35px;
+        thead {
+            tr {
+                th {
+                    max-width: 320px;
+                    padding: 30px 0;
+                    border: 12px solid #fff;
+                    border-top: none;
+                    font-size: 18px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    text-align: center;
+                    color: #fff;
+                    &:nth-child(1) {
+                        max-width: 205px;
+                        border-left: none;
+                    }
+                    &:nth-child(2) {
+                        background-color: #26ad5f;
+                    }
+                    &:nth-child(3) {
+                        background-color: #2f7cd5;
+                    }
+                    &:nth-child(4) {
+                        border-right: none;
+                        background-color: #fcc000;
+                    }
+                }
+            }
+        }
+        tbody {
+            tr {
+                td {
+                    max-width: 320px;
+                    padding: 30px 15px;
+                    border: 12px solid #fff;
+                    text-align: center;
+                    &:first-child {
+                        max-width: 205px;
+                        padding-top: 15px;
+                        border-left: none;
+                        background-color: #f2f2f2;
+                        span {
+                            display: block;
+                            margin: 0 auto;
+                            width: 30px;
+                            height: 27px;
+                        }
+                    }
+                    &:nth-child(2) {
+                        background-color: #e9f7ef;
+                    }
+                    &:nth-child(3) {
+                        background-color: #eaf2fb;
+                    }
+                    &:nth-child(4) {
+                        border-right: none;
+                        background-color: #fff9e5;
+                    }
+                }
+                &:first-child {
+                    span {
+                        @include icons-sprite(service-1);
+                    }
+                }
+                &:nth-child(2) {
+                    span {
+                        @include icons-sprite(service-2);
+                    }
+                }
+                &:nth-child(3) {
+                    span {
+                        @include icons-sprite(service-3);
+                    }
+                }
+                &:nth-child(4) {
+                    span {
+                        @include icons-sprite(service-4);
+                    }
+                }
+                &:nth-child(5) {
+                    td {
+                        background-color: transparent;
+                        &:last-child {
+                            font-weight: 600;
+                            background-color: #fdd040;
+                        }
+                    }
+                }
+                &:nth-child(6) {
+                    td {
+                        background-color: transparent;
+                        .booking {
+                            text-transform: none;
+                            @include breakpoint(small) {
+                                width: 130px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .rate {
+        display: none;
+        text-align: center;
+        margin-top: 35px;
+        padding: 0 93px;
+        @include breakpoint(extra-small){
+            display: block;
+        }
+        @include breakpoint(smaller) {
+            padding: 0 15px;
+        }
+
+        h3 {
+            margin: 0;
+            padding: 15px 0;
+            background-color: #26ad5f;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 21px;
+            text-transform: uppercase;
+            color: #fff;
+
+            small {
+                font-size: 14px;
+                text-transform: none;
+                color: #fff;
+            }
+        }
+
+        &:nth-child(2) {
+            h3 {
+                background-color: #2f7cd5;
+            }
+        }
+
+        &:nth-child(3) {
+            h3 {
+                background-color: #fcc000;
+            }
+        }
+
+        .rate-description {
+            padding: 17px 15px 25px;
+            border: 1px solid #cfcfcf;
+            border-top: none;
+
+            p {
+                margin-top: 35px;
+                color: #666666;
+            }
+            hr {
+                width: 120px;
+                margin: 35px auto 0;
+            }
+
+            .booking {
+                margin-top: 35px;
+            }
+        }
+    }
+}

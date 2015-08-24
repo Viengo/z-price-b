@@ -1,0 +1,53 @@
+.modal-style {
+    padding-right: 0 !important;
+    &:nth-of-type(2) {
+        .modal-header {
+            h3 {
+                background-color: #2f7cd5;
+            }
+        }
+    }
+
+    &:nth-of-type(3) {
+        .modal-header {
+            h3 {
+                background-color: #fcc000;
+            }
+        }
+    }
+
+    .modal-header {
+        padding: 0;
+        h3 {
+            margin: 0;
+            padding: 18px 15px 10px;
+            background-color: #26ad5f;
+            font-weight: 600;
+            line-height: 22px;
+            text-transform: uppercase;
+            color: #fff;
+
+            small {
+                font-size: 18px;
+                text-transform: none;
+                color: #fff;
+            }
+        }
+    }
+    .modal-body {
+        text-align: center;
+
+        p {
+            margin-top: 35px;
+            color: #666666;
+        }
+        hr {
+            width: 120px;
+            margin: 35px auto 0;
+        }
+
+        .booking {
+            margin-top: 65px;
+        }
+    }
+}
