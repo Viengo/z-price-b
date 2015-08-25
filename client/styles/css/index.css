@@ -4099,9 +4099,10 @@ button.close {
 /* line 11, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-open {
   overflow: hidden;
+  padding-right: 0 !important;
 }
 
-/* line 16, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+/* line 17, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal {
   padding-right: 0 !important;
   display: none;
@@ -4115,7 +4116,7 @@ button.close {
   -webkit-overflow-scrolling: touch;
   outline: 0;
 }
-/* line 33, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+/* line 34, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal.fade .modal-dialog {
   -webkit-transform: translate(0, -25%);
   -ms-transform: translate(0, -25%);
@@ -4126,7 +4127,7 @@ button.close {
   -o-transition: -o-transform 0.3s ease-out;
   transition: transform 0.3s ease-out;
 }
-/* line 37, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+/* line 38, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal.in .modal-dialog {
   -webkit-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
@@ -4134,20 +4135,20 @@ button.close {
   transform: translate(0, 0);
 }
 
-/* line 39, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+/* line 40, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-open .modal {
   overflow-x: hidden;
   overflow-y: auto;
 }
 
-/* line 45, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+/* line 46, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-dialog {
   position: relative;
   width: 300px;
   margin: 10px auto;
 }
 
-/* line 52, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+/* line 53, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-content {
   position: relative;
   background-color: #fff;
@@ -4160,7 +4161,7 @@ button.close {
   outline: 0;
 }
 
-/* line 65, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+/* line 66, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-backdrop {
   position: fixed;
   top: 0;
@@ -4170,18 +4171,18 @@ button.close {
   z-index: 1040;
   background-color: #000;
 }
-/* line 74, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+/* line 75, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-backdrop.fade {
   opacity: 0;
   filter: alpha(opacity=0);
 }
-/* line 75, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+/* line 76, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-backdrop.in {
   opacity: 0.5;
   filter: alpha(opacity=50);
 }
 
-/* line 80, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+/* line 81, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-header {
   padding: 0;
   border-bottom: 1px solid #e5e5e5;
@@ -4189,24 +4190,24 @@ button.close {
   text-align: center;
 }
 
-/* line 87, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+/* line 88, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-header .close {
   margin-top: -2px;
 }
 
-/* line 92, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+/* line 93, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-title {
   margin: 0;
   line-height: 1.42857;
 }
 
-/* line 99, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+/* line 100, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-body {
   position: relative;
   padding: 15px 25px 30px;
 }
 
-/* line 105, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+/* line 106, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-footer {
   padding: 15px 25px 30px;
   text-align: right;
@@ -4221,21 +4222,21 @@ button.close {
 .modal-footer:after {
   clear: both;
 }
-/* line 112, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+/* line 113, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-footer .btn + .btn {
   margin-left: 5px;
   margin-bottom: 0;
 }
-/* line 117, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+/* line 118, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-footer .btn-group .btn + .btn {
   margin-left: -1px;
 }
-/* line 121, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+/* line 122, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-footer .btn-block + .btn-block {
   margin-left: 0;
 }
 
-/* line 127, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+/* line 128, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-scrollbar-measure {
   position: absolute;
   top: -9999px;
@@ -4245,25 +4246,25 @@ button.close {
 }
 
 @media (min-width: 768px) {
-  /* line 138, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+  /* line 139, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
   .modal-dialog {
     width: 381px;
     margin: 30px auto;
   }
 
-  /* line 142, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+  /* line 143, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
   .modal-content {
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   }
 
-  /* line 147, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+  /* line 148, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
   .modal-sm {
     width: 381px;
   }
 }
 @media (min-width: 992px) {
-  /* line 151, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+  /* line 152, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
   .modal-lg {
     width: 381px;
   }
