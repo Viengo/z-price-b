@@ -5641,8 +5641,13 @@ button.close {
   text-transform: uppercase;
   text-align: center;
   color: #fff;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
-/* line 40, ../scss/components/_buttons.scss */
+/* line 41, ../scss/components/_buttons.scss */
 .booking:hover, .booking:focus {
   color: #fff;
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
@@ -6002,99 +6007,109 @@ footer p, footer .social {
   text-transform: uppercase;
   text-align: center;
   color: #fff;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
-/* line 23, ../scss/widgets/_tariffs.scss */
+/* line 24, ../scss/widgets/_tariffs.scss */
 .tariffs table thead tr th:nth-child(1) {
   max-width: 205px;
   border-left: none;
 }
-/* line 27, ../scss/widgets/_tariffs.scss */
+/* line 28, ../scss/widgets/_tariffs.scss */
 .tariffs table thead tr th:nth-child(2) {
   background-color: #26ad5f;
 }
-/* line 30, ../scss/widgets/_tariffs.scss */
+/* line 31, ../scss/widgets/_tariffs.scss */
 .tariffs table thead tr th:nth-child(3) {
   background-color: #2f7cd5;
 }
-/* line 33, ../scss/widgets/_tariffs.scss */
+/* line 34, ../scss/widgets/_tariffs.scss */
 .tariffs table thead tr th:nth-child(4) {
   border-right: none;
   background-color: #fcc000;
 }
-/* line 42, ../scss/widgets/_tariffs.scss */
+/* line 43, ../scss/widgets/_tariffs.scss */
 .tariffs table tbody tr td {
   max-width: 320px;
   padding: 30px 15px;
   border: 12px solid #fff;
   text-align: center;
 }
-/* line 47, ../scss/widgets/_tariffs.scss */
+/* line 48, ../scss/widgets/_tariffs.scss */
 .tariffs table tbody tr td:first-child {
   max-width: 205px;
   padding-top: 15px;
   border-left: none;
   background-color: #f2f2f2;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
-/* line 52, ../scss/widgets/_tariffs.scss */
+/* line 54, ../scss/widgets/_tariffs.scss */
 .tariffs table tbody tr td:first-child span {
   display: block;
   margin: 0 auto;
   width: 30px;
   height: 27px;
 }
-/* line 59, ../scss/widgets/_tariffs.scss */
+/* line 61, ../scss/widgets/_tariffs.scss */
 .tariffs table tbody tr td:nth-child(2) {
   background-color: #e9f7ef;
 }
-/* line 62, ../scss/widgets/_tariffs.scss */
+/* line 64, ../scss/widgets/_tariffs.scss */
 .tariffs table tbody tr td:nth-child(3) {
   background-color: #eaf2fb;
 }
-/* line 65, ../scss/widgets/_tariffs.scss */
+/* line 67, ../scss/widgets/_tariffs.scss */
 .tariffs table tbody tr td:nth-child(4) {
   border-right: none;
   background-color: #fff9e5;
 }
-/* line 71, ../scss/widgets/_tariffs.scss */
+/* line 73, ../scss/widgets/_tariffs.scss */
 .tariffs table tbody tr:first-child span {
   background-position: 0 -150px;
 }
-/* line 76, ../scss/widgets/_tariffs.scss */
+/* line 78, ../scss/widgets/_tariffs.scss */
 .tariffs table tbody tr:nth-child(2) span {
   background-position: 0 -177px;
 }
-/* line 81, ../scss/widgets/_tariffs.scss */
+/* line 83, ../scss/widgets/_tariffs.scss */
 .tariffs table tbody tr:nth-child(3) span {
   background-position: 0 -204px;
 }
-/* line 86, ../scss/widgets/_tariffs.scss */
+/* line 88, ../scss/widgets/_tariffs.scss */
 .tariffs table tbody tr:nth-child(4) span {
   background-position: 0 -231px;
 }
-/* line 91, ../scss/widgets/_tariffs.scss */
+/* line 93, ../scss/widgets/_tariffs.scss */
 .tariffs table tbody tr:nth-child(5) td {
   background-color: transparent;
 }
-/* line 93, ../scss/widgets/_tariffs.scss */
+/* line 95, ../scss/widgets/_tariffs.scss */
 .tariffs table tbody tr:nth-child(5) td:last-child {
   font-weight: 600;
   background-color: #fdd040;
 }
-/* line 100, ../scss/widgets/_tariffs.scss */
+/* line 102, ../scss/widgets/_tariffs.scss */
 .tariffs table tbody tr:nth-child(6) td {
   background-color: transparent;
 }
-/* line 102, ../scss/widgets/_tariffs.scss */
+/* line 104, ../scss/widgets/_tariffs.scss */
 .tariffs table tbody tr:nth-child(6) td .booking {
   text-transform: none;
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 102, ../scss/widgets/_tariffs.scss */
+  /* line 104, ../scss/widgets/_tariffs.scss */
   .tariffs table tbody tr:nth-child(6) td .booking {
     width: 130px;
   }
 }
-/* line 113, ../scss/widgets/_tariffs.scss */
+/* line 115, ../scss/widgets/_tariffs.scss */
 .tariffs .rate {
   display: none;
   text-align: center;
@@ -6102,13 +6117,13 @@ footer p, footer .social {
   padding: 0 93px;
 }
 @media (max-width: 767px) {
-  /* line 113, ../scss/widgets/_tariffs.scss */
+  /* line 115, ../scss/widgets/_tariffs.scss */
   .tariffs .rate {
     display: block;
   }
 }
 @media (max-width: 600px) {
-  /* line 113, ../scss/widgets/_tariffs.scss */
+  /* line 115, ../scss/widgets/_tariffs.scss */
   .tariffs .rate {
     padding: 0 15px;
   }
@@ -6124,38 +6139,43 @@ footer p, footer .social {
   line-height: 22px;
   text-transform: uppercase;
   color: #fff;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
-/* line 13, ../scss/widgets/_rate.scss */
+/* line 14, ../scss/widgets/_rate.scss */
 .rate h3 small {
   font-size: 14px;
   text-transform: none;
   color: #fff;
 }
-/* line 21, ../scss/widgets/_rate.scss */
+/* line 22, ../scss/widgets/_rate.scss */
 .rate:nth-child(2) h3 {
   background-color: #2f7cd5;
 }
-/* line 27, ../scss/widgets/_rate.scss */
+/* line 28, ../scss/widgets/_rate.scss */
 .rate:nth-child(3) h3 {
   background-color: #fcc000;
 }
-/* line 32, ../scss/widgets/_rate.scss */
+/* line 33, ../scss/widgets/_rate.scss */
 .rate .rate-description {
   padding: 17px 15px 25px;
   border: 1px solid #cfcfcf;
   border-top: none;
   text-align: center;
 }
-/* line 38, ../scss/widgets/_rate.scss */
+/* line 39, ../scss/widgets/_rate.scss */
 .rate .rate-description p {
   margin-top: 17px;
 }
-/* line 42, ../scss/widgets/_rate.scss */
+/* line 43, ../scss/widgets/_rate.scss */
 .rate .rate-description hr {
   width: 120px;
   margin: 17px auto 0;
 }
-/* line 47, ../scss/widgets/_rate.scss */
+/* line 48, ../scss/widgets/_rate.scss */
 .rate .rate-description .booking {
   margin-top: 35px;
 }

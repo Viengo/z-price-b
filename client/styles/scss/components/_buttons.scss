@@ -37,6 +37,7 @@
     text-transform: uppercase;
     text-align: center;
     color: #fff;
+    @include user-select(none);
     &:hover, &:focus {
         color: #fff;
         @include box-shadow(0 5px 15px rgba(#000, 0.5));
