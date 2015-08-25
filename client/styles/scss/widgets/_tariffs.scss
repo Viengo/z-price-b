@@ -115,59 +115,11 @@
         text-align: center;
         margin-top: 35px;
         padding: 0 93px;
-        @include breakpoint(extra-small){
+        @include breakpoint(extra-small) {
             display: block;
         }
         @include breakpoint(smaller) {
             padding: 0 15px;
-        }
-
-        h3 {
-            margin: 0;
-            padding: 15px 0;
-            background-color: #26ad5f;
-            font-size: 18px;
-            font-weight: 700;
-            line-height: 21px;
-            text-transform: uppercase;
-            color: #fff;
-
-            small {
-                font-size: 14px;
-                text-transform: none;
-                color: #fff;
-            }
-        }
-
-        &:nth-child(2) {
-            h3 {
-                background-color: #2f7cd5;
-            }
-        }
-
-        &:nth-child(3) {
-            h3 {
-                background-color: #fcc000;
-            }
-        }
-
-        .rate-description {
-            padding: 17px 15px 25px;
-            border: 1px solid #cfcfcf;
-            border-top: none;
-
-            p {
-                margin-top: 35px;
-                color: #666666;
-            }
-            hr {
-                width: 120px;
-                margin: 35px auto 0;
-            }
-
-            .booking {
-                margin-top: 35px;
-            }
         }
     }
 }

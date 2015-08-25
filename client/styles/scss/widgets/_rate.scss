@@ -1,0 +1,51 @@
+.rate {
+
+    h3 {
+        margin: 0;
+        padding: 18px 15px 10px;;
+        background-color: #26ad5f;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #fff;
+
+        small {
+            font-size: 14px;
+            text-transform: none;
+            color: #fff;
+        }
+    }
+
+    &:nth-child(2) {
+        h3 {
+            background-color: #2f7cd5;
+        }
+    }
+
+    &:nth-child(3) {
+        h3 {
+            background-color: #fcc000;
+        }
+    }
+
+    .rate-description {
+        padding: 17px 15px 25px;
+        border: 1px solid #cfcfcf;
+        border-top: none;
+        text-align: center;
+
+        p {
+            margin-top: 17px;
+        }
+
+        hr {
+            width: 120px;
+            margin: 17px auto 0;
+        }
+
+        .booking {
+            margin-top: 35px;
+        }
+    }
+}

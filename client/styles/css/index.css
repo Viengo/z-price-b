@@ -4103,6 +4103,7 @@ button.close {
 
 /* line 16, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal {
+  padding-right: 0 !important;
   display: none;
   overflow: hidden;
   position: fixed;
@@ -4114,7 +4115,7 @@ button.close {
   -webkit-overflow-scrolling: touch;
   outline: 0;
 }
-/* line 32, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+/* line 33, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal.fade .modal-dialog {
   -webkit-transform: translate(0, -25%);
   -ms-transform: translate(0, -25%);
@@ -4125,7 +4126,7 @@ button.close {
   -o-transition: -o-transform 0.3s ease-out;
   transition: transform 0.3s ease-out;
 }
-/* line 36, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+/* line 37, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal.in .modal-dialog {
   -webkit-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
@@ -4133,20 +4134,20 @@ button.close {
   transform: translate(0, 0);
 }
 
-/* line 38, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+/* line 39, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-open .modal {
   overflow-x: hidden;
   overflow-y: auto;
 }
 
-/* line 44, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+/* line 45, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-dialog {
   position: relative;
   width: 300px;
   margin: 10px auto;
 }
 
-/* line 51, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+/* line 52, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-content {
   position: relative;
   background-color: #fff;
@@ -4159,7 +4160,7 @@ button.close {
   outline: 0;
 }
 
-/* line 64, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+/* line 65, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-backdrop {
   position: fixed;
   top: 0;
@@ -4169,43 +4170,43 @@ button.close {
   z-index: 1040;
   background-color: #000;
 }
-/* line 73, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+/* line 74, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-backdrop.fade {
   opacity: 0;
   filter: alpha(opacity=0);
 }
-/* line 74, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+/* line 75, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-backdrop.in {
   opacity: 0.5;
   filter: alpha(opacity=50);
 }
 
-/* line 79, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+/* line 80, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-header {
-  padding: 15px;
+  padding: 0;
   border-bottom: 1px solid #e5e5e5;
   min-height: 16.42857px;
   text-align: center;
 }
 
-/* line 86, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+/* line 87, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-header .close {
   margin-top: -2px;
 }
 
-/* line 91, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+/* line 92, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-title {
   margin: 0;
   line-height: 1.42857;
 }
 
-/* line 98, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+/* line 99, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-body {
   position: relative;
   padding: 15px 25px 30px;
 }
 
-/* line 104, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+/* line 105, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-footer {
   padding: 15px 25px 30px;
   text-align: right;
@@ -4220,21 +4221,21 @@ button.close {
 .modal-footer:after {
   clear: both;
 }
-/* line 111, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+/* line 112, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-footer .btn + .btn {
   margin-left: 5px;
   margin-bottom: 0;
 }
-/* line 116, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+/* line 117, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-footer .btn-group .btn + .btn {
   margin-left: -1px;
 }
-/* line 120, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+/* line 121, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-footer .btn-block + .btn-block {
   margin-left: 0;
 }
 
-/* line 126, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+/* line 127, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-scrollbar-measure {
   position: absolute;
   top: -9999px;
@@ -4244,25 +4245,25 @@ button.close {
 }
 
 @media (min-width: 768px) {
-  /* line 137, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+  /* line 138, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
   .modal-dialog {
     width: 381px;
     margin: 30px auto;
   }
 
-  /* line 141, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+  /* line 142, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
   .modal-content {
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   }
 
-  /* line 146, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+  /* line 147, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
   .modal-sm {
     width: 381px;
   }
 }
 @media (min-width: 992px) {
-  /* line 150, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
+  /* line 151, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
   .modal-lg {
     width: 381px;
   }
@@ -5314,7 +5315,7 @@ button.close {
 
 /* line 1, ../../../bower_components/select2/src/scss/theme/classic/_single.scss */
 .select2-container--classic .select2-selection--single {
-  background-color: #f6f6f6;
+  background-color: #f7f7f7;
   border: 1px solid #fff;
   border-radius: 0;
   outline: 0;
@@ -6112,101 +6113,51 @@ footer p, footer .social {
     padding: 0 15px;
   }
 }
-/* line 125, ../scss/widgets/_tariffs.scss */
-.tariffs .rate h3 {
-  margin: 0;
-  padding: 15px 0;
-  background-color: #26ad5f;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 21px;
-  text-transform: uppercase;
-  color: #fff;
-}
-/* line 135, ../scss/widgets/_tariffs.scss */
-.tariffs .rate h3 small {
-  font-size: 14px;
-  text-transform: none;
-  color: #fff;
-}
-/* line 143, ../scss/widgets/_tariffs.scss */
-.tariffs .rate:nth-child(2) h3 {
-  background-color: #2f7cd5;
-}
-/* line 149, ../scss/widgets/_tariffs.scss */
-.tariffs .rate:nth-child(3) h3 {
-  background-color: #fcc000;
-}
-/* line 154, ../scss/widgets/_tariffs.scss */
-.tariffs .rate .rate-description {
-  padding: 17px 15px 25px;
-  border: 1px solid #cfcfcf;
-  border-top: none;
-}
-/* line 159, ../scss/widgets/_tariffs.scss */
-.tariffs .rate .rate-description p {
-  margin-top: 35px;
-  color: #666666;
-}
-/* line 163, ../scss/widgets/_tariffs.scss */
-.tariffs .rate .rate-description hr {
-  width: 120px;
-  margin: 35px auto 0;
-}
-/* line 168, ../scss/widgets/_tariffs.scss */
-.tariffs .rate .rate-description .booking {
-  margin-top: 35px;
-}
 
-/* line 1, ../scss/widgets/_modal-style.scss */
-.modal-style {
-  padding-right: 0 !important;
-}
-/* line 5, ../scss/widgets/_modal-style.scss */
-.modal-style:nth-of-type(2) .modal-header h3 {
-  background-color: #2f7cd5;
-}
-/* line 13, ../scss/widgets/_modal-style.scss */
-.modal-style:nth-of-type(3) .modal-header h3 {
-  background-color: #fcc000;
-}
-/* line 19, ../scss/widgets/_modal-style.scss */
-.modal-style .modal-header {
-  padding: 0;
-}
-/* line 21, ../scss/widgets/_modal-style.scss */
-.modal-style .modal-header h3 {
+/* line 3, ../scss/widgets/_rate.scss */
+.rate h3 {
   margin: 0;
   padding: 18px 15px 10px;
   background-color: #26ad5f;
+  font-size: 18px;
   font-weight: 600;
   line-height: 22px;
   text-transform: uppercase;
   color: #fff;
 }
-/* line 30, ../scss/widgets/_modal-style.scss */
-.modal-style .modal-header h3 small {
-  font-size: 18px;
+/* line 13, ../scss/widgets/_rate.scss */
+.rate h3 small {
+  font-size: 14px;
   text-transform: none;
   color: #fff;
 }
-/* line 37, ../scss/widgets/_modal-style.scss */
-.modal-style .modal-body {
+/* line 21, ../scss/widgets/_rate.scss */
+.rate:nth-child(2) h3 {
+  background-color: #2f7cd5;
+}
+/* line 27, ../scss/widgets/_rate.scss */
+.rate:nth-child(3) h3 {
+  background-color: #fcc000;
+}
+/* line 32, ../scss/widgets/_rate.scss */
+.rate .rate-description {
+  padding: 17px 15px 25px;
+  border: 1px solid #cfcfcf;
+  border-top: none;
   text-align: center;
 }
-/* line 40, ../scss/widgets/_modal-style.scss */
-.modal-style .modal-body p {
-  margin-top: 35px;
-  color: #666666;
+/* line 38, ../scss/widgets/_rate.scss */
+.rate .rate-description p {
+  margin-top: 17px;
 }
-/* line 44, ../scss/widgets/_modal-style.scss */
-.modal-style .modal-body hr {
+/* line 42, ../scss/widgets/_rate.scss */
+.rate .rate-description hr {
   width: 120px;
-  margin: 35px auto 0;
+  margin: 17px auto 0;
 }
-/* line 49, ../scss/widgets/_modal-style.scss */
-.modal-style .modal-body .booking {
-  margin-top: 65px;
+/* line 47, ../scss/widgets/_rate.scss */
+.rate .rate-description .booking {
+  margin-top: 35px;
 }
 
 /* line 1, ../scss/layouts/home/_slider.scss */
