@@ -18,13 +18,13 @@
         }
     }
 
-    &:nth-child(2) {
+    &:nth-of-type(2) {
         h3 {
             background-color: #2f7cd5;
         }
     }
 
-    &:nth-child(3) {
+    &:nth-of-type(3) {
         h3 {
             background-color: #fcc000;
         }

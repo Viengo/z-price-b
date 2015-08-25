@@ -6153,11 +6153,11 @@ footer p, footer .social {
   color: #fff;
 }
 /* line 22, ../scss/widgets/_rate.scss */
-.rate:nth-child(2) h3 {
+.rate:nth-of-type(2) h3 {
   background-color: #2f7cd5;
 }
 /* line 28, ../scss/widgets/_rate.scss */
-.rate:nth-child(3) h3 {
+.rate:nth-of-type(3) h3 {
   background-color: #fcc000;
 }
 /* line 33, ../scss/widgets/_rate.scss */
