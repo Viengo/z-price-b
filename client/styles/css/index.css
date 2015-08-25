@@ -5994,9 +5994,10 @@ footer p, footer .social {
 }
 /* line 9, ../scss/widgets/_tariffs.scss */
 .tariffs table {
+  width: 100%;
   margin-top: 35px;
 }
-/* line 13, ../scss/widgets/_tariffs.scss */
+/* line 14, ../scss/widgets/_tariffs.scss */
 .tariffs table thead tr th {
   max-width: 320px;
   padding: 30px 15px;
@@ -6013,32 +6014,32 @@ footer p, footer .social {
   -ms-user-select: none;
   user-select: none;
 }
-/* line 24, ../scss/widgets/_tariffs.scss */
+/* line 25, ../scss/widgets/_tariffs.scss */
 .tariffs table thead tr th:nth-child(1) {
   max-width: 205px;
   border-left: none;
 }
-/* line 28, ../scss/widgets/_tariffs.scss */
+/* line 29, ../scss/widgets/_tariffs.scss */
 .tariffs table thead tr th:nth-child(2) {
   background-color: #26ad5f;
 }
-/* line 31, ../scss/widgets/_tariffs.scss */
+/* line 32, ../scss/widgets/_tariffs.scss */
 .tariffs table thead tr th:nth-child(3) {
   background-color: #2f7cd5;
 }
-/* line 34, ../scss/widgets/_tariffs.scss */
+/* line 35, ../scss/widgets/_tariffs.scss */
 .tariffs table thead tr th:nth-child(4) {
   border-right: none;
   background-color: #fcc000;
 }
-/* line 43, ../scss/widgets/_tariffs.scss */
+/* line 44, ../scss/widgets/_tariffs.scss */
 .tariffs table tbody tr td {
   max-width: 320px;
   padding: 30px 15px;
   border: 12px solid #fff;
   text-align: center;
 }
-/* line 48, ../scss/widgets/_tariffs.scss */
+/* line 49, ../scss/widgets/_tariffs.scss */
 .tariffs table tbody tr td:first-child {
   max-width: 205px;
   padding-top: 15px;
@@ -6050,66 +6051,66 @@ footer p, footer .social {
   -ms-user-select: none;
   user-select: none;
 }
-/* line 54, ../scss/widgets/_tariffs.scss */
+/* line 55, ../scss/widgets/_tariffs.scss */
 .tariffs table tbody tr td:first-child span {
   display: block;
   margin: 0 auto;
   width: 30px;
   height: 27px;
 }
-/* line 61, ../scss/widgets/_tariffs.scss */
+/* line 62, ../scss/widgets/_tariffs.scss */
 .tariffs table tbody tr td:nth-child(2) {
   background-color: #e9f7ef;
 }
-/* line 64, ../scss/widgets/_tariffs.scss */
+/* line 65, ../scss/widgets/_tariffs.scss */
 .tariffs table tbody tr td:nth-child(3) {
   background-color: #eaf2fb;
 }
-/* line 67, ../scss/widgets/_tariffs.scss */
+/* line 68, ../scss/widgets/_tariffs.scss */
 .tariffs table tbody tr td:nth-child(4) {
   border-right: none;
   background-color: #fff9e5;
 }
-/* line 73, ../scss/widgets/_tariffs.scss */
+/* line 74, ../scss/widgets/_tariffs.scss */
 .tariffs table tbody tr:first-child span {
   background-position: 0 -150px;
 }
-/* line 78, ../scss/widgets/_tariffs.scss */
+/* line 79, ../scss/widgets/_tariffs.scss */
 .tariffs table tbody tr:nth-child(2) span {
   background-position: 0 -177px;
 }
-/* line 83, ../scss/widgets/_tariffs.scss */
+/* line 84, ../scss/widgets/_tariffs.scss */
 .tariffs table tbody tr:nth-child(3) span {
   background-position: 0 -204px;
 }
-/* line 88, ../scss/widgets/_tariffs.scss */
+/* line 89, ../scss/widgets/_tariffs.scss */
 .tariffs table tbody tr:nth-child(4) span {
   background-position: 0 -231px;
 }
-/* line 93, ../scss/widgets/_tariffs.scss */
+/* line 94, ../scss/widgets/_tariffs.scss */
 .tariffs table tbody tr:nth-child(5) td {
   background-color: transparent;
 }
-/* line 95, ../scss/widgets/_tariffs.scss */
+/* line 96, ../scss/widgets/_tariffs.scss */
 .tariffs table tbody tr:nth-child(5) td:last-child {
   font-weight: 600;
   background-color: #fdd040;
 }
-/* line 102, ../scss/widgets/_tariffs.scss */
+/* line 103, ../scss/widgets/_tariffs.scss */
 .tariffs table tbody tr:nth-child(6) td {
   background-color: transparent;
 }
-/* line 104, ../scss/widgets/_tariffs.scss */
+/* line 105, ../scss/widgets/_tariffs.scss */
 .tariffs table tbody tr:nth-child(6) td .booking {
   text-transform: none;
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 104, ../scss/widgets/_tariffs.scss */
+  /* line 105, ../scss/widgets/_tariffs.scss */
   .tariffs table tbody tr:nth-child(6) td .booking {
     width: 130px;
   }
 }
-/* line 115, ../scss/widgets/_tariffs.scss */
+/* line 116, ../scss/widgets/_tariffs.scss */
 .tariffs .rate {
   display: none;
   text-align: center;
@@ -6117,13 +6118,13 @@ footer p, footer .social {
   padding: 0 93px;
 }
 @media (max-width: 767px) {
-  /* line 115, ../scss/widgets/_tariffs.scss */
+  /* line 116, ../scss/widgets/_tariffs.scss */
   .tariffs .rate {
     display: block;
   }
 }
 @media (max-width: 600px) {
-  /* line 115, ../scss/widgets/_tariffs.scss */
+  /* line 116, ../scss/widgets/_tariffs.scss */
   .tariffs .rate {
     padding: 0 15px;
   }
