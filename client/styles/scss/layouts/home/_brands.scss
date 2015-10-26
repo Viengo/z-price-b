@@ -1,0 +1,86 @@
+.brands {
+    padding: 50px 0 215px;
+    @include breakpoint(middle){
+        padding-bottom: 80px;
+    }
+    @include breakpoint(small){
+        padding-bottom: 50px;
+    }
+    @include breakpoint(extra-small){
+        padding-bottom: 50px;
+    }
+    .sign {
+        font-size: 24px;
+        &::before {
+            @include icons-sprite(brands);
+        }
+    }
+    figure {
+        margin-top: 30px;
+        height: 250px;
+        padding: 23px;
+        background-color: #f8f8f8;
+        text-align: center;
+        @include breakpoint(middle){
+            height: 440px;
+        }
+        @include breakpoint(extra-small){
+            height: auto;
+        }
+        &.heightfix {
+            height: 285px;
+            @include breakpoint(middle){
+                height: 475px;
+            }
+            @include breakpoint(extra-small){
+                height: auto;
+            }
+        }
+        img {
+            float:left;
+            width: 172px;
+            @include breakpoint(middle){
+                float: none;
+                width: 190px;
+            }
+            @include breakpoint(small){
+                width: 200px;
+            }
+            @include breakpoint(extra-small){
+                float: none;
+            }
+        }
+        figcaption {
+            float: right;
+            width: 320px;
+            text-align: left;
+            @include breakpoint(middle){
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+            }
+            @include breakpoint(small){
+                width: 430px;
+            }
+            @include breakpoint(extra-small){
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+            }
+            h3 {
+                margin: 0;
+                font-size: 18px;
+                text-transform: uppercase;
+                color: #2f7cd5;
+                @include breakpoint(extra-small){
+                    text-align: center;
+                }
+            }
+            p {
+                margin-top: 25px;
+                font-size: 14px;
+                color: #666666;
+            }
+        }
+    }
+}

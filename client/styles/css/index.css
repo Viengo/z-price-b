@@ -5316,7 +5316,7 @@ button.close {
 
 /* line 1, ../../../bower_components/select2/src/scss/theme/classic/_single.scss */
 .select2-container--classic .select2-selection--single {
-  background-color: #f7f7f7;
+  background-color: #f6f6f6;
   border: 1px solid #fff;
   border-radius: 0;
   outline: 0;
@@ -5554,9 +5554,9 @@ button.close {
   border-color: #fff;
 }
 
-/* line 160, icons/*.png */
-.icons-sprite, .button::before, .phone::before, .registration li:first-child::before, .tariffs .sign::before, .tariffs table tbody tr:first-child span, .tariffs table tbody tr:nth-child(2) span, .tariffs table tbody tr:nth-child(3) span, .tariffs table tbody tr:nth-child(4) span, .home .slider .slider-style .carousel-control::before, .home .advantages .sign::before, .home .advantages .avail h3::before, .home .partners .sign::before, .home .news .article .caption a::before, .home .news .article .caption a:hover::before {
-  background-image: url('../../images/icons-s19ac52faf7.png');
+/* line 184, icons/*.png */
+.icons-sprite, .button::before, .phone::before, .registration li:first-child::before, .tariffs .sign::before, .tariffs table tbody tr:first-child span, .tariffs table tbody tr:nth-child(2) span, .tariffs table tbody tr:nth-child(3) span, .tariffs table tbody tr:nth-child(4) span, .home .slider .slider-style .carousel-control::before, .home .advantages .sign::before, .home .advantages .avail h3::before, .home .partners .sign::before, .home .news .article .caption a::before, .home .news .article .caption a:hover::before, .home .banner .providers li a::before, .home .banner .providers li a:hover::before, .home .brands .sign::before {
+  background-image: url('../../images/icons-s7d40d20470.png');
   background-repeat: no-repeat;
 }
 
@@ -5624,7 +5624,7 @@ button.close {
   display: block;
   width: 7px;
   height: 13px;
-  background-position: 0 0;
+  background-position: 0 -18px;
 }
 /* line 25, ../scss/components/_buttons.scss */
 .button.orange {
@@ -5672,7 +5672,7 @@ button.close {
   display: inline-block;
   width: 25px;
   height: 25px;
-  background-position: 0 -125px;
+  background-position: 0 -197px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -khtml-user-select: none;
@@ -5768,7 +5768,7 @@ button.close {
   left: -25px;
   width: 20px;
   height: 22px;
-  background-position: 0 -81px;
+  background-position: 0 -153px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 15, ../scss/widgets/_registration.scss */
@@ -5991,7 +5991,7 @@ footer p, footer .social {
 }
 /* line 5, ../scss/widgets/_tariffs.scss */
 .tariffs .sign::before {
-  background-position: 0 -330px;
+  background-position: 0 -402px;
 }
 /* line 9, ../scss/widgets/_tariffs.scss */
 .tariffs table {
@@ -6074,19 +6074,19 @@ footer p, footer .social {
 }
 /* line 74, ../scss/widgets/_tariffs.scss */
 .tariffs table tbody tr:first-child span {
-  background-position: 0 -150px;
+  background-position: 0 -222px;
 }
 /* line 79, ../scss/widgets/_tariffs.scss */
 .tariffs table tbody tr:nth-child(2) span {
-  background-position: 0 -177px;
+  background-position: 0 -249px;
 }
 /* line 84, ../scss/widgets/_tariffs.scss */
 .tariffs table tbody tr:nth-child(3) span {
-  background-position: 0 -204px;
+  background-position: 0 -276px;
 }
 /* line 89, ../scss/widgets/_tariffs.scss */
 .tariffs table tbody tr:nth-child(4) span {
-  background-position: 0 -231px;
+  background-position: 0 -303px;
 }
 /* line 94, ../scss/widgets/_tariffs.scss */
 .tariffs table tbody tr:nth-child(5) td {
@@ -6308,7 +6308,7 @@ footer p, footer .social {
   width: 35px;
   height: 35px;
   border: 3px solid #95b5db;
-  background-position: 0 -366px;
+  background-position: 0 -438px;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
@@ -6340,7 +6340,7 @@ footer p, footer .social {
 }
 /* line 7, ../scss/layouts/home/_advantages.scss */
 .home .advantages .sign::before {
-  background-position: 0 -258px;
+  background-position: 0 -330px;
 }
 /* line 11, ../scss/layouts/home/_advantages.scss */
 .home .advantages .avail {
@@ -6384,7 +6384,7 @@ footer p, footer .social {
   width: 26px;
   height: 26px;
   border: 2px solid #2f7cd5;
-  background-position: 0 -103px;
+  background-position: 0 -175px;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
@@ -6408,7 +6408,7 @@ footer p, footer .social {
 }
 /* line 8, ../scss/layouts/home/_partners.scss */
 .home .partners .sign::before {
-  background-position: 0 -294px;
+  background-position: 0 -366px;
 }
 /* line 13, ../scss/layouts/home/_partners.scss */
 .home .partners ul {
@@ -6581,7 +6581,7 @@ footer p, footer .social {
   width: 23px;
   height: 23px;
   border: 2px solid #000;
-  background-position: 0 -62px;
+  background-position: 0 -134px;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
@@ -6593,5 +6593,273 @@ footer p, footer .social {
 /* line 84, ../scss/layouts/home/_news.scss */
 .home .news .article .caption a:hover::before {
   border-color: #2f7cd5;
-  background-position: 0 -43px;
+  background-position: 0 -115px;
+}
+/* line 1, ../scss/layouts/home/_banner.scss */
+.home .banner {
+  padding-top: 40px;
+  background-image: url("../../images/slider/slider-back.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 1, ../scss/layouts/home/_banner.scss */
+  .home .banner {
+    padding-bottom: 40px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 1, ../scss/layouts/home/_banner.scss */
+  .home .banner {
+    padding-bottom: 40px;
+  }
+}
+/* line 13, ../scss/layouts/home/_banner.scss */
+.home .banner .banner-image {
+  text-align: right;
+}
+@media (max-width: 767px) {
+  /* line 13, ../scss/layouts/home/_banner.scss */
+  .home .banner .banner-image {
+    text-align: center;
+  }
+}
+/* line 18, ../scss/layouts/home/_banner.scss */
+.home .banner .banner-image img {
+  width: 435px;
+  padding-right: 25px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 18, ../scss/layouts/home/_banner.scss */
+  .home .banner .banner-image img {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 18, ../scss/layouts/home/_banner.scss */
+  .home .banner .banner-image img {
+    width: 100%;
+    max-width: 350px;
+  }
+}
+/* line 30, ../scss/layouts/home/_banner.scss */
+.home .banner h3 {
+  margin-top: 10px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+}
+/* line 36, ../scss/layouts/home/_banner.scss */
+.home .banner .providers {
+  margin-top: 13px;
+}
+/* line 38, ../scss/layouts/home/_banner.scss */
+.home .banner .providers li {
+  display: block;
+  padding: 9px 0;
+}
+/* line 41, ../scss/layouts/home/_banner.scss */
+.home .banner .providers li a {
+  vertical-align: top;
+  font-size: 16px;
+  color: #fff;
+}
+/* line 45, ../scss/layouts/home/_banner.scss */
+.home .banner .providers li a::before {
+  content: "";
+  display: inline-block;
+  margin-right: 5px;
+  width: 22px;
+  height: 22px;
+  border: 2px solid #fff;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background-position: 0 -31px;
+}
+/* line 55, ../scss/layouts/home/_banner.scss */
+.home .banner .providers li a:hover {
+  text-decoration: underline;
+  color: #fcc000;
+}
+/* line 58, ../scss/layouts/home/_banner.scss */
+.home .banner .providers li a:hover::before {
+  border-color: #fcc000;
+  background-position: 0 0;
+}
+/* line 67, ../scss/layouts/home/_banner.scss */
+.home .banner .buttons-group {
+  margin-top: 27px;
+  font-size: 0;
+}
+/* line 70, ../scss/layouts/home/_banner.scss */
+.home .banner .buttons-group li {
+  display: inline-block;
+}
+@media (max-width: 767px) {
+  /* line 70, ../scss/layouts/home/_banner.scss */
+  .home .banner .buttons-group li {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+  }
+}
+/* line 77, ../scss/layouts/home/_banner.scss */
+.home .banner .buttons-group li:nth-child(2) {
+  margin-left: 17px;
+}
+@media (max-width: 767px) {
+  /* line 77, ../scss/layouts/home/_banner.scss */
+  .home .banner .buttons-group li:nth-child(2) {
+    margin-left: 0;
+  }
+}
+/* line 83, ../scss/layouts/home/_banner.scss */
+.home .banner .buttons-group li .button {
+  text-align: left;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 83, ../scss/layouts/home/_banner.scss */
+  .home .banner .buttons-group li .button {
+    width: 160px;
+    padding-left: 15px;
+  }
+}
+/* line 1, ../scss/layouts/home/_brands.scss */
+.home .brands {
+  padding: 50px 0 215px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 1, ../scss/layouts/home/_brands.scss */
+  .home .brands {
+    padding-bottom: 80px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 1, ../scss/layouts/home/_brands.scss */
+  .home .brands {
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 1, ../scss/layouts/home/_brands.scss */
+  .home .brands {
+    padding-bottom: 50px;
+  }
+}
+/* line 12, ../scss/layouts/home/_brands.scss */
+.home .brands .sign {
+  font-size: 24px;
+}
+/* line 14, ../scss/layouts/home/_brands.scss */
+.home .brands .sign::before {
+  background-position: 0 -79px;
+}
+/* line 18, ../scss/layouts/home/_brands.scss */
+.home .brands figure {
+  margin-top: 30px;
+  height: 250px;
+  padding: 23px;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 18, ../scss/layouts/home/_brands.scss */
+  .home .brands figure {
+    height: 440px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 18, ../scss/layouts/home/_brands.scss */
+  .home .brands figure {
+    height: auto;
+  }
+}
+/* line 30, ../scss/layouts/home/_brands.scss */
+.home .brands figure.heightfix {
+  height: 285px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 30, ../scss/layouts/home/_brands.scss */
+  .home .brands figure.heightfix {
+    height: 475px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 30, ../scss/layouts/home/_brands.scss */
+  .home .brands figure.heightfix {
+    height: auto;
+  }
+}
+/* line 39, ../scss/layouts/home/_brands.scss */
+.home .brands figure img {
+  float: left;
+  width: 172px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 39, ../scss/layouts/home/_brands.scss */
+  .home .brands figure img {
+    float: none;
+    width: 190px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 39, ../scss/layouts/home/_brands.scss */
+  .home .brands figure img {
+    width: 200px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 39, ../scss/layouts/home/_brands.scss */
+  .home .brands figure img {
+    float: none;
+  }
+}
+/* line 53, ../scss/layouts/home/_brands.scss */
+.home .brands figure figcaption {
+  float: right;
+  width: 320px;
+  text-align: left;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 53, ../scss/layouts/home/_brands.scss */
+  .home .brands figure figcaption {
+    float: none;
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 53, ../scss/layouts/home/_brands.scss */
+  .home .brands figure figcaption {
+    width: 430px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 53, ../scss/layouts/home/_brands.scss */
+  .home .brands figure figcaption {
+    float: none;
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+/* line 70, ../scss/layouts/home/_brands.scss */
+.home .brands figure figcaption h3 {
+  margin: 0;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #2f7cd5;
+}
+@media (max-width: 767px) {
+  /* line 70, ../scss/layouts/home/_brands.scss */
+  .home .brands figure figcaption h3 {
+    text-align: center;
+  }
+}
+/* line 79, ../scss/layouts/home/_brands.scss */
+.home .brands figure figcaption p {
+  margin-top: 25px;
+  font-size: 14px;
+  color: #666666;
 }
